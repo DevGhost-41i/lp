@@ -1,9 +1,11 @@
 import { useState, useEffect, useCallback, useMemo } from 'react';
 import { useAuth } from '../contexts/AuthContext';
 import { supabase, Publisher } from '../lib/supabase';
-import { Plus, Search, ChevronDown, Globe, ExternalLink, Eye, RefreshCw, Copy, Folder } from 'lucide-react';
+import { Plus, Search, ChevronDown, Globe, ExternalLink, Eye, RefreshCw, Copy, Folder, Upload } from 'lucide-react';
 import AddPublisherModal from '../components/AddPublisherModal';
 import PublisherDetailModal from '../components/PublisherDetailModal';
+import BulkUploadPublisherModal from '../components/BulkUploadPublisherModal';
+import BackgroundJobsStatus from '../components/BackgroundJobsStatus';
 import { useNotification } from '../components/NotificationContainer';
 import TableRowSkeleton from '../components/TableRowSkeleton';
 
@@ -27,6 +29,7 @@ export default function Publishers() {
   const [publishers, setPublishers] = useState<PublisherWithPartner[]>([]);
   const [loading, setLoading] = useState(true);
   const [showAddModal, setShowAddModal] = useState(false);
+  const [showBulkUploadModal, setShowBulkUploadModal] = useState(false);
   const [selectedPublisher, setSelectedPublisher] = useState<PublisherWithPartner | null>(null);
   const [searchTerm, setSearchTerm] = useState('');
   const [statusFilter, setStatusFilter] = useState('all');
@@ -386,6 +389,13 @@ export default function Publishers() {
             <span className="hidden md:inline">Refresh Keys</span>
           </button>
           <button
+            onClick={() => setShowBulkUploadModal(true)}
+            className="flex items-center gap-2 px-4 py-2.5 bg-[#1E1E1E] border border-[#2C2C2C] hover:border-[#48a77f] text-gray-300 hover:text-[#48a77f] rounded-lg text-sm font-medium transition-colors whitespace-nowrap"
+          >
+            <Upload className="w-4 h-4" />
+            <span className="hidden md:inline">Bulk Upload</span>
+          </button>
+          <button
             onClick={() => setShowAddModal(true)}
             className="flex items-center gap-2 px-4 py-2.5 bg-[#48a77f] hover:bg-[#3d9166] text-white rounded-lg text-sm font-medium transition-colors shadow-lg shadow-[#48a77f]/20 whitespace-nowrap"
           >
@@ -395,7 +405,11 @@ export default function Publishers() {
         </div>
       </div>
 
-      <div className="bg-[#1E1E1E] rounded-xl border border-[#2C2C2C] overflow-hidden">
+      {/* Background Jobs Status Banner */}
+      <BackgroundJobsStatus onRefresh={fetchPublishers} />
+
+      {/* Publishers Table */}
+      <div className="bg-[#161616] border border-[#2C2C2C] rounded-lg overflow-hidden">
         <div className="overflow-x-auto custom-scrollbar">
           <table className="w-full">
             <thead>
@@ -540,6 +554,19 @@ export default function Publishers() {
         />
       )
       }
+
+      {showBulkUploadModal && (
+        <BulkUploadPublisherModal
+          isOpen={showBulkUploadModal}
+          onClose={() => setShowBulkUploadModal(false)}
+          onSuccess={() => {
+            setShowBulkUploadModal(false);
+            fetchPublishers();
+          }}
+          userId={appUser?.id || ''}
+          partnerId={appUser?.id || null}
+        />
+      )}
 
       {
         selectedPublisher && (

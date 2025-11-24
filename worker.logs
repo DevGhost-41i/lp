@@ -1,250 +1,1265 @@
-2025-11-24T14:05:38.782472463Z **cause:**  
-2025-11-24T14:05:38.782474213Z - No ad data exists due to absent monetization implementation  
-2025-11-24T14:05:38.782475893Z **fix:**  
-2025-11-24T14:05:38.782477633Z - Integrate legitimate ad networks (e.g., Google Ad Manager)  
-2025-11-24T14:05:38.782491513Z - Monitor CTR/eCPM benchmarks  
-2025-11-24T14:05:38.782493233Z **impact(score_change="0% (no revenue metrics available)")**  
-2025-11-24T14:05:38.782494923Z **good:**  
-2025-11-24T14:05:38.782496953Z - Revenue consistency marked as "normal"  
-2025-11-24T14:05:38.782498723Z - Publisher group alignment confirmed  
-2025-11-24T14:05:38.782500394Z **review_summary:**  
-2025-11-24T14:05:38.782502174Z Performance metrics are unavailable but show no red flags. Monetization implementation required for meaningful analysis.  
-2025-11-24T14:05:38.782503754Z 
-2025-11-24T14:05:38.782505414Z ### Policy & Compliance Violations  
-2025-11-24T14:05:38.782507103Z **found(issues:[])**  
-2025-11-24T14:05:38.782508794Z **cause:**  
-2025-11-24T14:05:38.782510524Z - Zero detected violations across all policy frameworks  
-2025-11-24T14:05:38.782512234Z **fix:**  
-2025-11-24T14:05:38.782513894Z - None needed  
-2025-11-24T14:05:38.782515634Z **impact(score_change="0% (fully compliant)")**  
-2025-11-24T14:05:38.782517304Z **good:**  
-2025-11-24T14:05:38.782519044Z - Compliant with AdChoices, Google Policies, IAB Standards  
-2025-11-24T14:05:38.782520764Z **review_summary:**  
-2025-11-24T14:05:38.782536154Z Perfect compliance record. Maintain transparent ad disclosures and content policies.  
-2025-11-24T14:05:38.782537934Z 
-2025-11-24T14:05:38.782539604Z ### Overall Assessment  
-2025-11-24T14:05:38.782541284Z **combine():**  
-2025-11-24T14:05:38.782544815Z Critical content deficiencies (0 entropy/readability) and performance failures (0 load score) undermine site viability despite strong technical foundations (SSL, no broken links) and perfect compliance. Zero ad density eliminates MFA risks but indicates monetization failure. Immediate priorities: 1) Develop original content 2) Optimize page performance 3) Implement analytics and ad systems. Domain reputation remains positive but requires active content maintenance to sustain.
-2025-11-24T14:05:38.782546725Z     interpretation: {"rawResponse":"\n\n### Ad Behavior Analysis  \n**found(issues:[])**  \n**cause:
-2025-11-24T14:05:38.782548415Z     timestamp: 2025-11-24T14:05:36.304Z
-2025-11-24T14:05:38.782550165Z     metadata: {"model":"alibaba/tongyi-deepresearch-30b-a3b:free","promptVersion":{"domain":"p
-2025-11-24T14:05:38.782551995Z ======================================================================
-2025-11-24T14:05:38.782553605Z 
-2025-11-24T14:05:38.993573378Z [DB_LOG] INSERT site_audits: 1 record(s) in 105ms
-2025-11-24T14:05:52.905348596Z [DB_LOG] UPDATE site_audits: 1 record(s) in 1339ms
-2025-11-24T14:05:53.538349553Z [pub:3be82b25] ⚠ No ad elements to batch insert
-2025-11-24T14:05:56.551573791Z 
-2025-11-24T14:05:56.551609542Z AUDIT SUMMARY - digibliss.in
-2025-11-24T14:05:56.551614952Z ======================================================================
-2025-11-24T14:05:56.551618622Z 
-2025-11-24T14:05:56.551622322Z CRAWLER
-2025-11-24T14:05:56.551627152Z   Status: PROCESSED
-2025-11-24T14:05:56.551630652Z 
-2025-11-24T14:05:56.551634263Z CONTENTANALYZER
-2025-11-24T14:05:56.551637843Z   Status: PROCESSED
-2025-11-24T14:05:56.551641363Z 
-2025-11-24T14:05:56.551645143Z ADANALYZER
-2025-11-24T14:05:56.551648953Z   Status: PROCESSED
-2025-11-24T14:05:56.551666013Z 
-2025-11-24T14:05:56.551668384Z POLICYCHECKER
-2025-11-24T14:05:56.551670604Z   Status: PROCESSED
-2025-11-24T14:05:56.551672533Z 
-2025-11-24T14:05:56.551674464Z TECHNICALCHECKER
-2025-11-24T14:05:56.551676644Z   Status: PROCESSED
-2025-11-24T14:05:56.551678554Z 
-2025-11-24T14:05:56.551680624Z SCORER
-2025-11-24T14:05:56.551682754Z   Status: PROCESSED
-2025-11-24T14:05:56.551684684Z 
-2025-11-24T14:05:56.551690114Z AIASSISTANCE
-2025-11-24T14:05:56.551692404Z   Status: PROCESSED
-2025-11-24T14:05:56.551694284Z 
-2025-11-24T14:05:56.551696394Z ======================================================================
-2025-11-24T14:05:56.551698504Z Total Issues Found: 0
-2025-11-24T14:05:56.551701184Z Total Positive Findings: 0
-2025-11-24T14:05:56.551703264Z 
-2025-11-24T14:05:56.551713975Z AUDIT FINDINGS
-2025-11-24T14:05:56.551716645Z ======================================================================
-2025-11-24T14:05:56.551718595Z 
-2025-11-24T14:05:56.551720645Z [CRAWLER]
-2025-11-24T14:05:56.551722705Z   url: digibliss.in
-2025-11-24T14:05:56.551725155Z   metrics:
-2025-11-24T14:05:56.551728145Z     navigationTiming: {"fetchStart":0,"requestStart":0,"responseStart":0,"responseEnd":396.29999995231
-2025-11-24T14:05:56.551730765Z     coreLWP: {"ttfb":0,"fcp":0,"lcp":0,"cls":0,"dcp":null}
-2025-11-24T14:05:56.551732985Z     jsWeight: 0
-2025-11-24T14:05:56.551735165Z     resourceCount: 0
-2025-11-24T14:05:56.551737275Z     resourceTiming: {"images":0,"stylesheets":0,"scripts":0,"fonts":0}
-2025-11-24T14:05:56.551739455Z   adElements: [0 items]
-2025-11-24T14:05:56.551741535Z   iframes: [0 items]
-2025-11-24T14:05:56.551743625Z   content: [1 items]
-2025-11-24T14:05:56.551745575Z     - No content extracted
-2025-11-24T14:05:56.551747595Z   viewport: desktop
-2025-11-24T14:05:56.551749646Z   publisherId: 3be82b25-af7c-4e10-8e70-4ee475d21ea3
-2025-11-24T14:05:56.551751696Z   siteAuditId: 93e4b4b8-a2d8-4c25-9d35-2cb33b5d71a6
-2025-11-24T14:05:56.551753576Z 
-2025-11-24T14:05:56.551755736Z [CONTENTANALYZER]
-2025-11-24T14:05:56.551757776Z   textLength: 20
-2025-11-24T14:05:56.551759966Z   analysisTimestamp: 2025-11-24T14:05:40.597Z
-2025-11-24T14:05:56.551761976Z   entropy:
-2025-11-24T14:05:56.551764006Z     entropyScore: 0.728
-2025-11-24T14:05:56.551765936Z     isLowEntropy: false
-2025-11-24T14:05:56.551768006Z     contentLength: 20
-2025-11-24T14:05:56.551770076Z     flagStatus: clean
-2025-11-24T14:05:56.551772166Z   similarity:
-2025-11-24T14:05:56.551775136Z     simhashFingerprint: 0001011011011000010100001011101100010110110110000101000010111011
-2025-11-24T14:05:56.551777296Z     contentHash: 5f196686
-2025-11-24T14:05:56.551779436Z     tokenCount: 3
-2025-11-24T14:05:56.551781656Z   readability:
-2025-11-24T14:05:56.551783876Z     readabilityScore: 100
-2025-11-24T14:05:56.551786096Z     gradeLevel: 0
-2025-11-24T14:05:56.551788287Z     readabilityLevel: unknown
-2025-11-24T14:05:56.551790597Z     humanAuthorshipLikelihood: true
-2025-11-24T14:05:56.551792827Z   ai:
-2025-11-24T14:05:56.551795047Z     aiLikelihood: 0
-2025-11-24T14:05:56.551797347Z     aiScore: 0
-2025-11-24T14:05:56.551799507Z     aiIndicators: []
-2025-11-24T14:05:56.551801757Z     aiConfidence: 0
-2025-11-24T14:05:56.551804227Z   clickbait:
-2025-11-24T14:05:56.551806677Z     clickbaitScore: 0
-2025-11-24T14:05:56.551809147Z     isClickbait: false
-2025-11-24T14:05:56.551811477Z     clickbaitPatterns: []
-2025-11-24T14:05:56.551813837Z     clickbaitRiskLevel: none
-2025-11-24T14:05:56.551816367Z   freshness:
-2025-11-24T14:05:56.551824188Z     contentFreshness: unknown
-2025-11-24T14:05:56.551826517Z     daysOld: null
-2025-11-24T14:05:56.551828598Z     lastUpdatedDate: null
-2025-11-24T14:05:56.551850808Z     stalenessIndicator: false
-2025-11-24T14:05:56.551853098Z   riskAssessment:
-2025-11-24T14:05:56.551855218Z     detectedRisks: ["insufficient_content_tokens"]
-2025-11-24T14:05:56.551857218Z     totalRiskScore: 0.1
-2025-11-24T14:05:56.551859358Z     riskLevel: low
-2025-11-24T14:05:56.551861638Z     recommendedAction: auto_approve
-2025-11-24T14:05:56.551863738Z   flagStatus: clean
-2025-11-24T14:05:56.551865709Z 
-2025-11-24T14:05:56.551867719Z [ADANALYZER]
-2025-11-24T14:05:56.551869719Z   success: true
-2025-11-24T14:05:56.551871789Z   data:
-2025-11-24T14:05:56.551873869Z     timestamp: 2025-11-24T14:05:40.597Z
-2025-11-24T14:05:56.551875899Z     publisherId: 3be82b25-af7c-4e10-8e70-4ee475d21ea3
-2025-11-24T14:05:56.551878019Z     metadata: {"totalNetworkRequests":0,"totalAdElements":0,"viewport":{"width":1920,"height":
-2025-11-24T14:05:56.551880129Z     analysis: {"patterns":{"timestamp":"2025-11-24T14:05:40.597Z","networkAnalysis":{"detected
-2025-11-24T14:05:56.551882159Z     correlations: []
-2025-11-24T14:05:56.551884129Z 
-2025-11-24T14:05:56.551886219Z [POLICYCHECKER]
-2025-11-24T14:05:56.551888339Z   timestamp: 2025-11-24T14:05:40.597Z
-2025-11-24T14:05:56.551890409Z   jurisdiction:
-2025-11-24T14:05:56.551892489Z     primaryJurisdiction: US
-2025-11-24T14:05:56.551894489Z     allJurisdictions: []
-2025-11-24T14:05:56.55189653Z     signals: {"tld":null,"language":null,"currency":null,"geoLocation":null,"cookieConsent":n
-2025-11-24T14:05:56.55189857Z     confidence: 0
-2025-11-24T14:05:56.55190097Z   violations: [0 items]
-2025-11-24T14:05:56.55190303Z   complianceLevel: compliant
-2025-11-24T14:05:56.55190501Z   policies:
-2025-11-24T14:05:56.55190717Z     NO_ADULT_CONTENT: {"name":"No Adult Content","status":"compliant","violations":[],"severity":"crit
-2025-11-24T14:05:56.5519093Z     NO_GAMBLING: {"name":"No Gambling Content","status":"compliant","violations":[],"severity":"c
-2025-11-24T14:05:56.55191137Z     NO_MALWARE: {"name":"No Malware or Unsafe Software","status":"compliant","violations":[],"se
-2025-11-24T14:05:56.55191339Z     NO_DECEPTIVE_PRACTICES: {"name":"No Deceptive Practices","status":"compliant","violations":[],"severity"
-2025-11-24T14:05:56.55191546Z     NO_VIOLENT_CONTENT: {"name":"No Violent or Hateful Content","status":"compliant","violations":[],"se
-2025-11-24T14:05:56.55191749Z   summary:
-2025-11-24T14:05:56.55191948Z     complianceLevel: compliant
-2025-11-24T14:05:56.55192163Z     totalPolicies: 8
-2025-11-24T14:05:56.55192372Z     compliantPolicies: 8
-2025-11-24T14:05:56.55192576Z     violatingPolicies: 0
-2025-11-24T14:05:56.55192776Z     totalViolations: 0
-2025-11-24T14:05:56.55192979Z   executionTime: 2
-2025-11-24T14:05:56.55193189Z   categories:
-2025-11-24T14:05:56.55193404Z     detectedCategories: []
-2025-11-24T14:05:56.551936151Z     primaryCategory: null
-2025-11-24T14:05:56.55193826Z     scores: {"adult":0,"gambling":0,"violence":0,"drugs":0,"weapons":0,"hate":0,"education":
-2025-11-24T14:05:56.55194032Z     analysis: {"hasSensitiveContent":false,"sensitiveCategories":[],"riskLevel":"low","summary
-2025-11-24T14:05:56.551942341Z   restrictedKeywords:
-2025-11-24T14:05:56.551944381Z     monetizationAbuse: []
-2025-11-24T14:05:56.551946381Z     prohibitedContent: []
-2025-11-24T14:05:56.551948481Z     regulatoryViolations: []
-2025-11-24T14:05:56.551950481Z     googleBanned: []
-2025-11-24T14:05:56.551952581Z     total: 0
-2025-11-24T14:05:56.551954371Z 
-2025-11-24T14:05:56.551961161Z [TECHNICALCHECKER]
-2025-11-24T14:05:56.551963491Z   timestamp: 2025-11-24T14:05:40.597Z
-2025-11-24T14:05:56.551965701Z   domain: digibliss.in
-2025-11-24T14:05:56.551967821Z   components:
-2025-11-24T14:05:56.551969931Z     performance: {"lcp":null,"cls":null,"fid":null,"tbt":null,"performanceScore":0,"recommendatio
-2025-11-24T14:05:56.551972041Z     brokenLinks: {"brokenCount":0,"brokenLinks":[],"categories":{"success":[],"redirect":[],"clie
-2025-11-24T14:05:56.551974172Z     domainIntel: {}
-2025-11-24T14:05:56.551976212Z     viewportOcclusion: {}
-2025-11-24T14:05:56.551978281Z     ssl: {"valid":false,"error":"","daysToExpiry":0,"chainValid":false,"issuer":"Unknown"
-2025-11-24T14:05:56.551980372Z   technicalHealthScore: 29
-2025-11-24T14:05:56.551982382Z   summary:
-2025-11-24T14:05:56.551984442Z     totalIssues: 1
-2025-11-24T14:05:56.551987162Z     criticalIssues: ["SSL Certificate issue: Invalid"]
-2025-11-24T14:05:56.551989402Z     warnings: ["ads.txt: 1 invalid entries found"]
-2025-11-24T14:05:56.551991662Z     recommendations: ["Performance metrics are within acceptable ranges"]
-2025-11-24T14:05:56.552242488Z     componentStatus: {"ssl":"unhealthy","performance":"poor","adsTxt":"invalid","brokenLinks":"health
-2025-11-24T14:05:56.552246188Z   executionTime: 2023
-2025-11-24T14:05:56.552248369Z 
-2025-11-24T14:05:56.552250389Z [SCORER]
-2025-11-24T14:05:56.552252419Z   data:
-2025-11-24T14:05:56.552254549Z     auditId: undefined
-2025-11-24T14:05:56.552263559Z     publisherId: 3be82b25-af7c-4e10-8e70-4ee475d21ea3
-2025-11-24T14:05:56.552266459Z     riskScore: 0.00857142857142857
-2025-11-24T14:05:56.552268529Z     mfaProbability: 0.002243829468960359
-2025-11-24T14:05:56.552270939Z     scores: {"mfaProbability":0.002243829468960359,"overallRiskScore":0.00857142857142857,"w
-2025-11-24T14:05:56.552272809Z 
-2025-11-24T14:05:56.552274849Z [AIASSISTANCE]
-2025-11-24T14:05:56.552276999Z   data:
-2025-11-24T14:05:56.552279309Z     llmResponse: 
-2025-11-24T14:05:56.5522813Z 
-2025-11-24T14:05:56.55228336Z ### Ad Behavior Analysis  
-2025-11-24T14:05:56.55228549Z found(issues:[])  
-2025-11-24T14:05:56.55228766Z cause([])  
-2025-11-24T14:05:56.55228978Z fix([])  
-2025-11-24T14:05:56.55229194Z impact(score_change="Minimal negative impact")  
-2025-11-24T14:05:56.55229431Z good(["Ad density: 0%", "No scroll jacking", "Aggressive positioning: 0%"])  
-2025-11-24T14:05:56.55229712Z review_summary("No ad-related risks detected. Low ad density and absence of intrusive practices reduce MFA indicators.")  
-2025-11-24T14:05:56.55229914Z 
-2025-11-24T14:05:56.5523011Z ### Content Quality Indicators  
-2025-11-24T14:05:56.55230334Z found(issues:["Text entropy: 0/100", "Readability: 0/100", "Content freshness: 0/100", "Similarity: 0%"])  
-2025-11-24T14:05:56.55230545Z cause(["Scraped/low-effort content", "Lack of originality", "No editorial process", "Possible AI-generated filler content"])  
-2025-11-24T14:05:56.55230839Z fix(["Develop original content strategy", "Implement human curation", "Schedule regular content updates", "Use plagiarism detection tools"])  
-2025-11-24T14:05:56.55231054Z impact(score_change="-3 to -5 points")  
-2025-11-24T14:05:56.55231264Z good([])  
-2025-11-24T14:05:56.5523147Z review_summary("Critically low content quality suggests scraped or synthetic content. Urgent need for originality to reduce MFA risk.")  
-2025-11-24T14:05:56.55231661Z 
-2025-11-24T14:05:56.552318561Z ### Technical Infrastructure  
-2025-11-24T14:05:56.552320801Z found(issues:["Page load performance: 0/100"])  
-2025-11-24T14:05:56.552322951Z cause(["Unoptimized assets", "Server latency", "Excessive third-party scripts", "Poor hosting configuration"])  
-2025-11-24T14:05:56.552331291Z fix(["Compress images", "Enable caching", "Minify CSS/JS", "Upgrade hosting plan"])  
-2025-11-24T14:05:56.552333671Z impact(score_change="-2 points")  
-2025-11-24T14:05:56.552335861Z good(["SSL certificate valid", "No broken links", "Transparent WHOIS"])  
-2025-11-24T14:05:56.552337961Z review_summary("Technical flaws degrade UX but lack severe compliance risks. Optimization priority for user retention.")  
-2025-11-24T14:05:56.552339871Z 
-2025-11-24T14:05:56.552342141Z ### Layout & UX Anomalies  
-2025-11-24T14:05:56.552344261Z found(issues:[])  
-2025-11-24T14:05:56.552346411Z cause([])  
-2025-11-24T14:05:56.552348511Z fix([])  
-2025-11-24T14:05:56.552350581Z impact(score_change="Neutral")  
-2025-11-24T14:05:56.552352771Z good(["Viewport consistency: 0", "No rendering anomalies", "Hidden elements: 0%"])  
-2025-11-24T14:05:56.552354891Z review_summary("Clean layout reduces MFA signals. No usability red flags detected.")  
-2025-11-24T14:05:56.552356771Z 
-2025-11-24T14:05:56.552358831Z ### Risk Probability Assessment  
-2025-11-24T14:05:56.552360922Z found(issues:["MFA probability: NaN%", "Risk score: 0/10", "Confidence: 0%"])  
-2025-11-24T14:05:56.552362992Z cause(["Insufficient data for Bayesian model", "Zero traffic metrics", "No historical benchmarks", "Content quality gaps"])  
-2025-11-24T14:05:56.552365152Z fix(["Collect traffic data", "Establish baseline metrics", "Monitor content evolution", "Integrate analytics tools"])  
-2025-11-24T14:05:56.552367492Z impact(score_change="-4 points due to data gaps")  
-2025-11-24T14:05:56.552369662Z good(["Risk direction: Stable", "Revenue consistent"])  
-2025-11-24T14:05:56.552372312Z review_summary("Unquantifiable risk score masks content quality threats. Data collection is critical for accurate assessment.")  
-2025-11-24T14:05:56.552374372Z 
-2025-11-24T14:05:56.552376552Z ### Policy & Compliance  
-2025-11-24T14:05:56.552379672Z found(issues:[])  
-2025-11-24T14:05:56.552381942Z cause([])  
-2025-11-24T14:05:56.552384152Z fix([])  
-2025-11-24T14:05:56.552386532Z impact(score_change="Positive +1 point")  
-2025-11-24T14:05:56.552389062Z good(["Compliant with AdChoices, Google, IAB standards"])  
-2025-11-24T14:05:56.552391482Z review_summary("Policy adherence is current but superficial without content scrutiny. Regular audits needed.")  
-2025-11-24T14:05:56.552393783Z 
-2025-11-24T14:05:56.552396123Z ### Combined Risk Assessment  
-2025-11-24T14:05:56.552399213Z review_summary("Dominant risk stems from content quality (entropy/readability=0) and data gaps (NaN risk score). Ad behavior and compliance are strengths. Immediate focus: content originality and traffic data collection. Optimization of technical performance will enhance user experience and reduce bounce rates.")
-2025-11-24T14:05:56.552401843Z     interpretation: {"rawResponse":"\n\n### Ad Behavior Analysis  \nfound(issues:[])  \ncause([])  \
-2025-11-24T14:05:56.552404443Z     timestamp: 2025-11-24T14:05:50.785Z
-2025-11-24T14:05:56.552406963Z     metadata: {"model":"alibaba/tongyi-deepresearch-30b-a3b:free","promptVersion":{"domain":"d
-2025-11-24T14:05:56.552409553Z ======================================================================
-2025-11-24T14:05:56.552411673Z 
+2025-11-24T20:00:52.006650373Z ==> Deploying...
+2025-11-24T20:01:17.354523473Z ==> Running 'node scripts/worker-runner.js'
+2025-11-24T20:01:18.164448046Z [dotenv@17.2.3] injecting env (0) from .env -- tip: ⚙️  write to custom object with { processEnv: myObject }
+2025-11-24T20:01:21.466098444Z Failed to initialize analysis modules: scorerDb is not defined
+2025-11-24T20:01:21.466341957Z Stack: ReferenceError: scorerDb is not defined
+2025-11-24T20:01:21.466347027Z     at Object.<anonymous> (/opt/render/project/src/scripts/worker-runner.js:59:5)
+2025-11-24T20:01:21.466350058Z     at Module._compile (node:internal/modules/cjs/loader:1760:14)
+2025-11-24T20:01:21.466352968Z     at Object..js (node:internal/modules/cjs/loader:1892:10)
+2025-11-24T20:01:21.466355208Z     at Module.load (node:internal/modules/cjs/loader:1480:32)
+2025-11-24T20:01:21.466357248Z     at Module._load (node:internal/modules/cjs/loader:1299:12)
+2025-11-24T20:01:21.466359398Z     at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+2025-11-24T20:01:21.466361418Z     at wrapModuleLoad (node:internal/modules/cjs/loader:245:24)
+2025-11-24T20:01:21.466363499Z     at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)
+2025-11-24T20:01:21.466365619Z     at node:internal/main/run_main_module:33:47
+2025-11-24T20:01:28.500367585Z ==> Exited with status 1
+2025-11-24T20:01:28.516256314Z ==> Common ways to troubleshoot your deploy: https://render.com/docs/troubleshooting-deploys
+2025-11-24T20:01:32.874348504Z ==> Running 'node scripts/worker-runner.js'
+2025-11-24T20:01:33.877616935Z [dotenv@17.2.3] injecting env (0) from .env -- tip: 🔐 prevent committing .env to code: https://dotenvx.com/precommit
+2025-11-24T20:01:37.282236341Z Failed to initialize analysis modules: scorerDb is not defined
+2025-11-24T20:01:37.282493025Z Stack: ReferenceError: scorerDb is not defined
+2025-11-24T20:01:37.282501745Z     at Object.<anonymous> (/opt/render/project/src/scripts/worker-runner.js:59:5)
+2025-11-24T20:01:37.282507436Z     at Module._compile (node:internal/modules/cjs/loader:1760:14)
+2025-11-24T20:01:37.282512896Z     at Object..js (node:internal/modules/cjs/loader:1892:10)
+2025-11-24T20:01:37.282516906Z     at Module.load (node:internal/modules/cjs/loader:1480:32)
+2025-11-24T20:01:37.282520967Z     at Module._load (node:internal/modules/cjs/loader:1299:12)
+2025-11-24T20:01:37.282525167Z     at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+2025-11-24T20:01:37.282529327Z     at wrapModuleLoad (node:internal/modules/cjs/loader:245:24)
+2025-11-24T20:01:37.282533567Z     at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)
+2025-11-24T20:01:37.282537798Z     at node:internal/main/run_main_module:33:47
+2025-11-24T20:01:57.278801483Z ==> Running 'node scripts/worker-runner.js'
+2025-11-24T20:01:58.184735499Z [dotenv@17.2.3] injecting env (0) from .env -- tip: ⚙️  specify custom .env file path with { path: '/custom/path/.env' }
+2025-11-24T20:01:59.14953747Z ==> Running 'node scripts/worker-runner.js'
+2025-11-24T20:02:00.144907547Z [dotenv@17.2.3] injecting env (0) from .env -- tip: 👥 sync secrets across teammates & machines: https://dotenvx.com/ops
+2025-11-24T20:02:01.382607196Z Failed to initialize analysis modules: scorerDb is not defined
+2025-11-24T20:02:01.38285446Z Stack: ReferenceError: scorerDb is not defined
+2025-11-24T20:02:01.38286217Z     at Object.<anonymous> (/opt/render/project/src/scripts/worker-runner.js:59:5)
+2025-11-24T20:02:01.38286662Z     at Module._compile (node:internal/modules/cjs/loader:1760:14)
+2025-11-24T20:02:01.382886141Z     at Object..js (node:internal/modules/cjs/loader:1892:10)
+2025-11-24T20:02:01.382897132Z     at Module.load (node:internal/modules/cjs/loader:1480:32)
+2025-11-24T20:02:01.382901022Z     at Module._load (node:internal/modules/cjs/loader:1299:12)
+2025-11-24T20:02:01.382904542Z     at TracingChannel.traceSync (node:diagnostics_channel:328:14)
+2025-11-24T20:02:01.382907802Z     at wrapModuleLoad (node:internal/modules/cjs/loader:245:24)
+2025-11-24T20:02:01.382911303Z     at Module.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:154:5)
+2025-11-24T20:02:01.382915253Z     at node:internal/main/run_main_module:33:47
+2025-11-24T20:05:50.90341237Z [DB_LOG] INSERT audit_queue: 1 record(s) in 639ms
+2025-11-24T20:05:51.499708764Z [DB_LOG] INSERT site_audits: 1 record(s) in 475ms
+2025-11-24T20:05:56.588390426Z [DB_LOG] INSERT audit_queue: 1 record(s) in 314ms
+2025-11-24T20:06:02.42331283Z [DB_LOG] INSERT audit_queue: 1 record(s) in 117ms
+2025-11-24T20:06:07.607818447Z [DB_LOG] UPDATE site_audits: 1 record(s) in 147ms
+2025-11-24T20:06:09.737015485Z     monetizationAbuse: []
+2025-11-24T20:06:09.737017865Z     prohibitedContent: []
+2025-11-24T20:06:09.737020385Z     regulatoryViolations: []
+2025-11-24T20:06:09.737022625Z     googleBanned: []
+2025-11-24T20:06:09.737025166Z     total: 0
+2025-11-24T20:06:09.737027536Z 
+2025-11-24T20:06:09.737030116Z [TECHNICALCHECKER]
+2025-11-24T20:06:09.737032856Z   timestamp: 2025-11-24T20:05:53.946Z
+2025-11-24T20:06:09.737035326Z   domain: business.techssoftwares.com
+2025-11-24T20:06:09.737038126Z   components:
+2025-11-24T20:06:09.737040646Z     performance: {"lcp":null,"cls":null,"fid":null,"tbt":null,"performanceScore":0,"recommendatio
+2025-11-24T20:06:09.737042847Z     brokenLinks: {"brokenCount":0,"brokenLinks":[],"categories":{"success":[],"redirect":[],"clie
+2025-11-24T20:06:09.737045317Z     domainIntel: {}
+2025-11-24T20:06:09.737048087Z     viewportOcclusion: {}
+2025-11-24T20:06:09.737051027Z     ssl: {"valid":false,"error":"","daysToExpiry":0,"chainValid":false,"issuer":"Unknown"
+2025-11-24T20:06:09.737089669Z   technicalHealthScore: 30
+2025-11-24T20:06:09.737092729Z   summary:
+2025-11-24T20:06:09.737095179Z     totalIssues: 1
+2025-11-24T20:06:09.73709784Z     criticalIssues: ["SSL Certificate issue: Invalid"]
+2025-11-24T20:06:09.73710059Z     warnings: []
+2025-11-24T20:06:09.73710345Z     recommendations: ["Performance metrics are within acceptable ranges"]
+2025-11-24T20:06:09.7371062Z     componentStatus: {"ssl":"unhealthy","performance":"poor","adsTxt":"healthy","brokenLinks":"health
+2025-11-24T20:06:09.73710883Z   executionTime: 690
+2025-11-24T20:06:09.73711118Z 
+2025-11-24T20:06:09.73711363Z [SCORER]
+2025-11-24T20:06:09.73711625Z   data:
+2025-11-24T20:06:09.737118881Z     auditId: undefined
+2025-11-24T20:06:09.737132471Z     publisherId: 6814f375-59b1-4dec-b0ab-af311931affb
+2025-11-24T20:06:09.737136331Z     riskScore: 0.00857142857142857
+2025-11-24T20:06:09.737138982Z     mfaProbability: 0.002243829468960359
+2025-11-24T20:06:09.737141782Z     scores: {"mfaProbability":0.002243829468960359,"overallRiskScore":0.00857142857142857,"w
+2025-11-24T20:06:09.737144002Z 
+2025-11-24T20:06:09.737146632Z [AIASSISTANCE]
+2025-11-24T20:06:09.737149192Z   data:
+2025-11-24T20:06:09.737151712Z     llmResponse: 
+2025-11-24T20:06:09.737153932Z 
+2025-11-24T20:06:09.737156892Z ### Module: Ad Behavior Analysis  
+2025-11-24T20:06:09.737159873Z **found(issues:** ["No observable ad behaviors detected"])  
+2025-11-24T20:06:09.737169863Z **cause:** ["Metrics at 0% indicate absence of ad-related activities or potential data collection failures"]  
+2025-11-24T20:06:09.737172703Z **fix:** ["Verify ad implementation scripts and ensure tracking pixels load correctly"]  
+2025-11-24T20:06:09.737175393Z **impact(score_change:** "Minimal risk impact; lacks monetization signals")  
+2025-11-24T20:06:09.737178064Z **good:** ["No aggressive ad behaviors detected"]  
+2025-11-24T20:06:09.737181304Z **review_summary:** "Zero ad density, refresh rates, and occlusion suggest either clean ad practices or incomplete data. Verify ad implementation to confirm compliance and functionality."  
+2025-11-24T20:06:09.737185384Z 
+2025-11-24T20:06:09.737188014Z ### Module: Content Quality Indicators  
+2025-11-24T20:06:09.737190694Z **found(issues:** ["Extremely low content entropy", "No freshness", "No similarity detected"])  
+2025-11-24T20:06:09.737193645Z **cause:** ["Metrics at 0 imply insufficient content volume, outdated material, or content generation failures"]  
+2025-11-24T20:06:09.737196534Z **fix:** ["Implement automated content updates and diversify content sources"]  
+2025-11-24T20:06:09.737199155Z **impact(score_change:** "High risk contribution; indicates low-quality or non-existent content")  
+2025-11-24T20:06:09.737201735Z **good:** ["No AI-generated or clickbait content detected"]  
+2025-11-24T20:06:09.737206545Z **review_summary:** "Critical deficiencies in entropy, freshness, and similarity suggest content gaps. Prioritize content creation and updates to avoid MFA classification."  
+2025-11-24T20:06:09.737209175Z 
+2025-11-24T20:06:09.737211955Z ### Module: Technical Infrastructure  
+2025-11-24T20:06:09.737214735Z **found(issues:** ["Poor page load performance"])  
+2025-11-24T20:06:09.737218076Z **cause:** ["Performance score of 0 indicates severe loading issues, possibly due to unoptimized assets or server delays"]  
+2025-11-24T20:06:09.737220956Z **fix:** ["Optimize images, enable caching, and upgrade hosting infrastructure"]  
+2025-11-24T20:06:09.737223636Z **impact(score_change:** "Moderate risk; poor UX may correlate with MFA patterns")  
+2025-11-24T20:06:09.737226146Z **good:** ["Valid SSL certificate and transparent WHOIS"]  
+2025-11-24T20:06:09.737229486Z **review_summary:** "Technical flaws undermine user experience. Address performance bottlenecks while maintaining security compliance."  
+2025-11-24T20:06:09.737231847Z 
+2025-11-24T20:06:09.737234736Z ### Module: Layout & UX Anomalies  
+2025-11-24T20:06:09.737237757Z **found(issues:** ["None detected"])  
+2025-11-24T20:06:09.737240647Z **cause:** ["Zero anomalies suggest stable rendering but may indicate minimal dynamic content"]  
+2025-11-24T20:06:09.737243487Z **fix:** ["Monitor for hidden elements or viewport inconsistencies during updates"]  
+2025-11-24T20:06:09.737246297Z **impact(score_change:** "Neutral; no direct risk but lacks engagement signals")  
+2025-11-24T20:06:09.737248837Z **good:** ["Consistent viewport rendering across devices"]  
+2025-11-24T20:06:09.737251848Z **review_summary:** "No UX issues detected, but low content entropy suggests static or placeholder pages. Enhance interactivity to improve engagement."  
+2025-11-24T20:06:09.737254217Z 
+2025-11-24T20:06:09.737256688Z ### Module: Risk Probability Assessment  
+2025-11-24T20:06:09.737259138Z **found(issues:** ["NaN% MFA probability", "No benchmark data"])  
+2025-11-24T20:06:09.737261698Z **cause:** ["Missing metrics prevent risk quantification; likely due to insufficient behavioral data"]  
+2025-11-24T20:06:09.737264248Z **fix:** ["Collect baseline traffic data and implement tracking for ad/content metrics"]  
+2025-11-24T20:06:09.737266858Z **impact(score_change:** "High uncertainty; prevents accurate risk scoring")  
+2025-11-24T20:06:09.737274929Z **good:** ["Domain reputation classified as 'Established'"]  
+2025-11-24T20:06:09.737277799Z **review_summary:** "Unquantifiable risk due to data voids. Establish monitoring systems to enable Bayesian analysis."  
+2025-11-24T20:06:09.737280179Z 
+2025-11-24T20:06:09.737282709Z ### Module: GAM Performance & Correlation Signals  
+2025-11-24T20:06:09.737285349Z **found(issues:** ["No data for CTR, eCPM, or fill rates"])  
+2025-11-24T20:06:09.737288239Z **cause:** ["Lack of monetization metrics implies inactive ad networks or tracking failures"]  
+2025-11-24T20:06:09.73729091Z **fix:** ["Integrate GAM tracking and validate publisher group alignment"]  
+2025-11-24T20:06:09.73729346Z **impact(score_change:** "Moderate risk; inconsistent revenue signals may indicate MFA patterns")  
+2025-11-24T20:06:09.73729593Z **good:** ["Revenue consistency labeled 'Normal'"]  
+2025-11-24T20:06:09.73729853Z **review_summary:** "Monetization data gaps require urgent resolution. Validate ad network configurations to ensure data integrity."  
+2025-11-24T20:06:09.73730081Z 
+2025-11-24T20:06:09.73730338Z ### Module: Policy & Compliance Violations  
+2025-11-24T20:06:09.73730581Z **found(issues:** ["None detected"])  
+2025-11-24T20:06:09.73730836Z **cause:** ["Compliance status marked 'Compliant' with no violations"]  
+2025-11-24T20:06:09.73731106Z **fix:** ["Maintain adherence to AdChoices, Google, and IAB standards"]  
+2025-11-24T20:06:09.737327511Z **impact(score_change:** "Positive; no policy risks")  
+2025-11-24T20:06:09.737330781Z **good:** ["Aligned with global advertising regulations"]  
+2025-11-24T20:06:09.737333322Z **review_summary:** "Strong compliance posture. Continuously audit for policy updates to sustain clean status."  
+2025-11-24T20:06:09.737335692Z 
+2025-11-24T20:06:09.737338242Z ### Combined Risk Assessment  
+2025-11-24T20:06:09.737341412Z **review_summary:** "Critical gaps in content quality, technical performance, and data metrics drive high risk uncertainty (NaN% MFA). While compliance and ad behaviors are clean, the absence of core metrics necessitates immediate action: prioritize content generation, infrastructure optimization, and data tracking implementation. Domain reputation offers a baseline safeguard, but proactive fixes are essential to mitigate MFA classification."
+2025-11-24T20:06:09.737347562Z     interpretation: {"rawResponse":"\n\n### Module: Ad Behavior Analysis  \n**found(issues:** [\"No 
+2025-11-24T20:06:09.737350582Z     timestamp: 2025-11-24T20:06:06.550Z
+2025-11-24T20:06:09.737353263Z     metadata: {"model":"alibaba/tongyi-deepresearch-30b-a3b:free","promptVersion":{"domain":"b
+2025-11-24T20:06:09.737356073Z ======================================================================
+2025-11-24T20:06:09.737358473Z 
+2025-11-24T20:06:09.954939251Z [DB_LOG] INSERT site_audits: 1 record(s) in 112ms
+2025-11-24T20:06:39.42056857Z [DB_LOG] UPDATE site_audits: 1 record(s) in 145ms
+2025-11-24T20:06:39.889141734Z [pub:6814f375] ⚠ No ad elements to batch insert
+2025-11-24T20:06:41.061335773Z 
+2025-11-24T20:06:41.061364725Z AUDIT SUMMARY - tech.techssoftwares.com
+2025-11-24T20:06:41.061370495Z ======================================================================
+2025-11-24T20:06:41.061374345Z 
+2025-11-24T20:06:41.061378666Z CRAWLER
+2025-11-24T20:06:41.061383136Z   Status: PROCESSED
+2025-11-24T20:06:41.061387306Z 
+2025-11-24T20:06:41.061391726Z CONTENTANALYZER
+2025-11-24T20:06:41.061395536Z   Status: PROCESSED
+2025-11-24T20:06:41.061399067Z 
+2025-11-24T20:06:41.061403257Z ADANALYZER
+2025-11-24T20:06:41.061407327Z   Status: PROCESSED
+2025-11-24T20:06:41.061411437Z 
+2025-11-24T20:06:41.061432558Z POLICYCHECKER
+2025-11-24T20:06:41.061446729Z   Status: PROCESSED
+2025-11-24T20:06:41.061449089Z 
+2025-11-24T20:06:41.061451279Z TECHNICALCHECKER
+2025-11-24T20:06:41.061453549Z   Status: PROCESSED
+2025-11-24T20:06:41.061455619Z 
+2025-11-24T20:06:41.061457799Z SCORER
+2025-11-24T20:06:41.0614606Z   Status: PROCESSED
+2025-11-24T20:06:41.06146303Z 
+2025-11-24T20:06:41.0614656Z AIASSISTANCE
+2025-11-24T20:06:41.06146807Z   Status: PROCESSED
+2025-11-24T20:06:41.06147014Z 
+2025-11-24T20:06:41.06147248Z ======================================================================
+2025-11-24T20:06:41.06147496Z Total Issues Found: 0
+2025-11-24T20:06:41.06147792Z Total Positive Findings: 0
+2025-11-24T20:06:41.061480361Z 
+2025-11-24T20:06:41.061739324Z AUDIT FINDINGS
+2025-11-24T20:06:41.061748835Z ======================================================================
+2025-11-24T20:06:41.061751685Z 
+2025-11-24T20:06:41.061754235Z [CRAWLER]
+2025-11-24T20:06:41.061757195Z   url: tech.techssoftwares.com
+2025-11-24T20:06:41.061759555Z   metrics:
+2025-11-24T20:06:41.061762635Z     navigationTiming: {"fetchStart":0,"requestStart":0,"responseStart":0,"responseEnd":303.60000014305
+2025-11-24T20:06:41.061766515Z     coreLWP: {"ttfb":0,"fcp":0,"lcp":0,"cls":0,"dcp":null}
+2025-11-24T20:06:41.061768866Z     jsWeight: 0
+2025-11-24T20:06:41.061771316Z     resourceCount: 0
+2025-11-24T20:06:41.061773916Z     resourceTiming: {"images":0,"stylesheets":0,"scripts":0,"fonts":0}
+2025-11-24T20:06:41.061776306Z   adElements: [0 items]
+2025-11-24T20:06:41.061778606Z   iframes: [0 items]
+2025-11-24T20:06:41.061781106Z   content: [1 items]
+2025-11-24T20:06:41.061783447Z     - No content extracted
+2025-11-24T20:06:41.061785656Z   viewport: desktop
+2025-11-24T20:06:41.061788247Z   publisherId: 6814f375-59b1-4dec-b0ab-af311931affb
+2025-11-24T20:06:41.061790747Z   siteAuditId: 1f9b5f09-a61c-4945-9453-ff7c4a67cac1
+2025-11-24T20:06:41.061792877Z 
+2025-11-24T20:06:41.061795197Z [CONTENTANALYZER]
+2025-11-24T20:06:41.061797457Z   textLength: 20
+2025-11-24T20:06:41.061800207Z   analysisTimestamp: 2025-11-24T20:06:11.742Z
+2025-11-24T20:06:41.061802677Z   entropy:
+2025-11-24T20:06:41.061805608Z     entropyScore: 0.728
+2025-11-24T20:06:41.061808098Z     isLowEntropy: false
+2025-11-24T20:06:41.061810458Z     contentLength: 20
+2025-11-24T20:06:41.061812788Z     flagStatus: clean
+2025-11-24T20:06:41.061815138Z   similarity:
+2025-11-24T20:06:41.061817938Z     simhashFingerprint: 0001011011011000010100001011101100010110110110000101000010111011
+2025-11-24T20:06:41.061820608Z     contentHash: 5f196686
+2025-11-24T20:06:41.061822929Z     tokenCount: 3
+2025-11-24T20:06:41.061825249Z   readability:
+2025-11-24T20:06:41.061827579Z     readabilityScore: 100
+2025-11-24T20:06:41.061829809Z     gradeLevel: 0
+2025-11-24T20:06:41.061832099Z     readabilityLevel: unknown
+2025-11-24T20:06:41.061834399Z     humanAuthorshipLikelihood: true
+2025-11-24T20:06:41.061836739Z   ai:
+2025-11-24T20:06:41.061839129Z     aiLikelihood: 0
+2025-11-24T20:06:41.061841599Z     aiScore: 0
+2025-11-24T20:06:41.061843919Z     aiIndicators: []
+2025-11-24T20:06:41.06184625Z     aiConfidence: 0
+2025-11-24T20:06:41.06184855Z   clickbait:
+2025-11-24T20:06:41.06185094Z     clickbaitScore: 0
+2025-11-24T20:06:41.06185348Z     isClickbait: false
+2025-11-24T20:06:41.06185593Z     clickbaitPatterns: []
+2025-11-24T20:06:41.06185823Z     clickbaitRiskLevel: none
+2025-11-24T20:06:41.061863891Z   freshness:
+2025-11-24T20:06:41.061866311Z     contentFreshness: unknown
+2025-11-24T20:06:41.061877931Z     daysOld: null
+2025-11-24T20:06:41.061880281Z     lastUpdatedDate: null
+2025-11-24T20:06:41.061882552Z     stalenessIndicator: false
+2025-11-24T20:06:41.061884842Z   riskAssessment:
+2025-11-24T20:06:41.061887252Z     detectedRisks: ["insufficient_content_tokens"]
+2025-11-24T20:06:41.061889762Z     totalRiskScore: 0.1
+2025-11-24T20:06:41.061892722Z     riskLevel: low
+2025-11-24T20:06:41.061895052Z     recommendedAction: auto_approve
+2025-11-24T20:06:41.061897292Z   flagStatus: clean
+2025-11-24T20:06:41.061899342Z 
+2025-11-24T20:06:41.061901722Z [ADANALYZER]
+2025-11-24T20:06:41.061904233Z   success: true
+2025-11-24T20:06:41.061906713Z   data:
+2025-11-24T20:06:41.061909153Z     timestamp: 2025-11-24T20:06:11.742Z
+2025-11-24T20:06:41.061912013Z     publisherId: 6814f375-59b1-4dec-b0ab-af311931affb
+2025-11-24T20:06:41.061914863Z     metadata: {"totalNetworkRequests":0,"totalAdElements":0,"viewport":{"width":1920,"height":
+2025-11-24T20:06:41.061917333Z     analysis: {"patterns":{"timestamp":"2025-11-24T20:06:11.742Z","networkAnalysis":{"detected
+2025-11-24T20:06:41.061919634Z     correlations: []
+2025-11-24T20:06:41.061921843Z 
+2025-11-24T20:06:41.061924064Z [POLICYCHECKER]
+2025-11-24T20:06:41.061926554Z   timestamp: 2025-11-24T20:06:11.742Z
+2025-11-24T20:06:41.061929394Z   jurisdiction:
+2025-11-24T20:06:41.061931864Z     primaryJurisdiction: US
+2025-11-24T20:06:41.061934404Z     allJurisdictions: []
+2025-11-24T20:06:41.061936884Z     signals: {"tld":null,"language":null,"currency":null,"geoLocation":null,"cookieConsent":n
+2025-11-24T20:06:41.061939224Z     confidence: 0
+2025-11-24T20:06:41.061941545Z   violations: [0 items]
+2025-11-24T20:06:41.061943795Z   complianceLevel: compliant
+2025-11-24T20:06:41.061945985Z   policies:
+2025-11-24T20:06:41.061948565Z     NO_ADULT_CONTENT: {"name":"No Adult Content","status":"compliant","violations":[],"severity":"crit
+2025-11-24T20:06:41.061951245Z     NO_GAMBLING: {"name":"No Gambling Content","status":"compliant","violations":[],"severity":"c
+2025-11-24T20:06:41.061953965Z     NO_MALWARE: {"name":"No Malware or Unsafe Software","status":"compliant","violations":[],"se
+2025-11-24T20:06:41.061956575Z     NO_DECEPTIVE_PRACTICES: {"name":"No Deceptive Practices","status":"compliant","violations":[],"severity"
+2025-11-24T20:06:41.061959085Z     NO_VIOLENT_CONTENT: {"name":"No Violent or Hateful Content","status":"compliant","violations":[],"se
+2025-11-24T20:06:41.061961806Z   summary:
+2025-11-24T20:06:41.061964766Z     complianceLevel: compliant
+2025-11-24T20:06:41.061967406Z     totalPolicies: 8
+2025-11-24T20:06:41.061970096Z     compliantPolicies: 8
+2025-11-24T20:06:41.061972766Z     violatingPolicies: 0
+2025-11-24T20:06:41.061975316Z     totalViolations: 0
+2025-11-24T20:06:41.061978117Z   executionTime: 2
+2025-11-24T20:06:41.061980527Z   categories:
+2025-11-24T20:06:41.061982817Z     detectedCategories: []
+2025-11-24T20:06:41.061985177Z     primaryCategory: null
+2025-11-24T20:06:41.061987447Z     scores: {"adult":0,"gambling":0,"violence":0,"drugs":0,"weapons":0,"hate":0,"education":
+2025-11-24T20:06:41.061989907Z     analysis: {"hasSensitiveContent":false,"sensitiveCategories":[],"riskLevel":"low","summary
+2025-11-24T20:06:41.061992537Z   restrictedKeywords:
+2025-11-24T20:06:41.061995067Z     monetizationAbuse: []
+2025-11-24T20:06:41.061997558Z     prohibitedContent: []
+2025-11-24T20:06:41.061999968Z     regulatoryViolations: []
+2025-11-24T20:06:41.062002178Z     googleBanned: []
+2025-11-24T20:06:41.062004578Z     total: 0
+2025-11-24T20:06:41.062007168Z 
+2025-11-24T20:06:41.062016419Z [TECHNICALCHECKER]
+2025-11-24T20:06:41.062018969Z   timestamp: 2025-11-24T20:06:11.742Z
+2025-11-24T20:06:41.062021179Z   domain: tech.techssoftwares.com
+2025-11-24T20:06:41.062023659Z   components:
+2025-11-24T20:06:41.062026399Z     performance: {"lcp":null,"cls":null,"fid":null,"tbt":null,"performanceScore":0,"recommendatio
+2025-11-24T20:06:41.062029109Z     brokenLinks: {"brokenCount":0,"brokenLinks":[],"categories":{"success":[],"redirect":[],"clie
+2025-11-24T20:06:41.062031639Z     domainIntel: {}
+2025-11-24T20:06:41.062034129Z     viewportOcclusion: {}
+2025-11-24T20:06:41.0620367Z     ssl: {"valid":false,"error":"","daysToExpiry":0,"chainValid":false,"issuer":"Unknown"
+2025-11-24T20:06:41.06203928Z   technicalHealthScore: 30
+2025-11-24T20:06:41.06204183Z   summary:
+2025-11-24T20:06:41.06204464Z     totalIssues: 1
+2025-11-24T20:06:41.06204734Z     criticalIssues: ["SSL Certificate issue: Invalid"]
+2025-11-24T20:06:41.0620498Z     warnings: []
+2025-11-24T20:06:41.062087972Z     recommendations: ["Performance metrics are within acceptable ranges"]
+2025-11-24T20:06:41.062100203Z     componentStatus: {"ssl":"unhealthy","performance":"poor","adsTxt":"healthy","brokenLinks":"health
+2025-11-24T20:06:41.062103063Z   executionTime: 758
+2025-11-24T20:06:41.062105493Z 
+2025-11-24T20:06:41.062107973Z [SCORER]
+2025-11-24T20:06:41.062110423Z   data:
+2025-11-24T20:06:41.062112833Z     auditId: undefined
+2025-11-24T20:06:41.062131114Z     publisherId: 6814f375-59b1-4dec-b0ab-af311931affb
+2025-11-24T20:06:41.062135025Z     riskScore: 0.00857142857142857
+2025-11-24T20:06:41.062137855Z     mfaProbability: 0.002243829468960359
+2025-11-24T20:06:41.062140605Z     scores: {"mfaProbability":0.002243829468960359,"overallRiskScore":0.00857142857142857,"w
+2025-11-24T20:06:41.062142845Z 
+2025-11-24T20:06:41.062145175Z [AIASSISTANCE]
+2025-11-24T20:06:41.062147995Z   data:
+2025-11-24T20:06:41.062150686Z     llmResponse: 
+2025-11-24T20:06:41.062152826Z 
+2025-11-24T20:06:41.062155146Z ### Ad Behavior Analysis
+2025-11-24T20:06:41.062157646Z found(issues:[])
+2025-11-24T20:06:41.062160126Z cause([])
+2025-11-24T20:06:41.062162646Z fix([])
+2025-11-24T20:06:41.062165226Z impact(score_change="No impact")
+2025-11-24T20:06:41.062168706Z good(["No aggressive ad practices detected (auto-refresh, occlusion, scroll jacking, aggressive positioning all 0%)"])
+2025-11-24T20:06:41.062172187Z review_summary("Ad behavior is clean with no aggressive practices. Absence of ads may be acceptable if non-commercial, but requires verification of monetization intent.")
+2025-11-24T20:06:41.062174427Z 
+2025-11-24T20:06:41.062176677Z ### Content Quality Indicators
+2025-11-24T20:06:41.062179137Z found(issues:["Text Entropy 0", "Readability 0", "Content Freshness 0", "No original content detected"])
+2025-11-24T20:06:41.062182587Z cause:["Site likely lacks substantive content or is a parked domain", "Content may be missing or not published", "Possible domain squatting behavior"])
+2025-11-24T20:06:41.062188357Z fix(["Publish original, high-quality content relevant to target audience", "Implement content management system to maintain freshness", "Remove placeholder content if applicable"])
+2025-11-24T20:06:41.062191308Z impact(score_change="High negative impact on risk score - Indicates potential MFA site with no user value"])
+2025-11-24T20:06:41.062193998Z good([])
+2025-11-24T20:06:41.062196738Z review_summary("Critical absence of content is a major red flag. Must populate with original material to establish legitimacy and reduce MFA risk.")
+2025-11-24T20:06:41.062199168Z 
+2025-11-24T20:06:41.062201878Z ### Technical Infrastructure
+2025-11-24T20:06:41.062204698Z found(issues:["Page Load Performance 0/100"])
+2025-11-24T20:06:41.062216809Z cause:["Unoptimized resources (images/scripts)", "Server performance issues", "Poor code efficiency", "Possible malware injection slowing resources"])
+2025-11-24T20:06:41.062219849Z fix(["Optimize images via compression", "Minify CSS/JS", "Implement lazy loading", "Upgrade hosting/server resources", "Scan for malware", "Enable browser caching"])
+2025-11-24T20:06:41.062222629Z impact(score_change="High negative impact - Slow performance is a known MFA indicator and damages user experience"])
+2025-11-24T20:06:41.062225089Z good(["SSL Certificate Valid", "Broken Links Ratio 0", "Domain Reputation Established", "WHOIS Privacy Transparent"])
+2025-11-24T20:06:41.062227579Z review_summary("Critical performance failure requires immediate optimization. Positive security signals partially offset risk but cannot compensate for poor UX.")
+2025-11-24T20:06:41.062229919Z 
+2025-11-24T20:06:41.06223261Z ### Layout & UX Anomalies
+2025-11-24T20:06:41.06223543Z found(issues:[])
+2025-11-24T20:06:41.0622381Z cause([])
+2025-11-24T20:06:41.06224084Z fix([])
+2025-11-24T20:06:41.06224342Z impact(score_change="No impact")
+2025-11-24T20:06:41.06224603Z good(["No viewport inconsistencies", "No rendering anomalies", "No hidden elements detected"])
+2025-11-24T20:06:41.062248851Z review_summary("Layout and UX are clean with no detectable anomalies. Maintains baseline quality standards.")
+2025-11-24T20:06:41.062251031Z 
+2025-11-24T20:06:41.062253341Z ### Risk Probability Assessment
+2025-11-24T20:06:41.062255911Z found(issues:["Overall MFA Probability NaN%", "Risk Score 0/10 with 0% confidence", "No component data available"])
+2025-11-24T20:06:41.062258341Z cause:["Insufficient behavioral data for Bayesian calculation", "Lack of traffic benchmarks", "No historical risk data", "Content absence prevents quality assessment"])
+2025-11-24T20:06:41.062260931Z fix(["Collect traffic data", "Implement analytics tools", "Gather historical performance metrics", "Populate content to enable quality assessment"])
+2025-11-24T20:06:41.062263531Z impact(score_change="Inconclusive risk assessment - Actual risk unknown due to data gaps"])
+2025-11-24T20:06:41.062266131Z good(["Risk direction stable", "No anomalies detected", "Revenue consistent"])
+2025-11-24T20:06:41.062268472Z review_summary("Risk assessment is unreliable due to data deficiencies. Content absence and missing metrics prevent accurate MFA probability calculation.")
+2025-11-24T20:06:41.062270712Z 
+2025-11-24T20:06:41.062272982Z ### GAM Performance & Correlation Signals
+2025-11-24T20:06:41.062276092Z found(issues:["No data available for CTR, eCPM, Fill Rate", "No impression spike detected", "Publisher group alignment unclear"])
+2025-11-24T20:06:41.062278742Z cause:["Insufficient traffic volume", "New/unestablished site", "Monetization not implemented", "Publisher group classification pending"])
+2025-11-24T20:06:41.062281252Z fix(["Increase traffic through SEO/content", "Implement ad management platform", "Classify publisher group", "Monitor performance metrics regularly"])
+2025-11-24T20:06:41.062283682Z impact(score_change="Inconclusive performance assessment - No actionable insights without data"])
+2025-11-24T20:06:41.062286013Z good(["No impression spikes", "Revenue consistent", "Publisher alignment indicated but unverified"])
+2025-11-24T20:06:41.062309644Z review_summary("Performance data unavailable due to likely low traffic/new site status. Consistent revenue suggests no fraudulent activity but requires traffic growth for meaningful analysis.")
+2025-11-24T20:06:41.062313244Z 
+2025-11-24T20:06:41.062315914Z ### Policy & Compliance Violations
+2025-11-24T20:06:41.062318514Z found(issues:[])
+2025-11-24T20:06:41.062321234Z cause([])
+2025-11-24T20:06:41.062332065Z fix([])
+2025-11-24T20:06:41.062334795Z impact(score_change="No impact")
+2025-11-24T20:06:41.062337695Z good(["Compliant with AdChoices, Google Publisher Policies, IAB Standards"])
+2025-11-24T20:06:41.062340425Z review_summary("No policy violations detected. Maintains baseline compliance but requires content and traffic to establish legitimacy.")
+2025-11-24T20:06:41.062342885Z     interpretation: {"rawResponse":"\n\n### Ad Behavior Analysis\nfound(issues:[])\ncause([])\nfix([
+2025-11-24T20:06:41.062345216Z     timestamp: 2025-11-24T20:06:38.608Z
+2025-11-24T20:06:41.062347786Z     metadata: {"model":"alibaba/tongyi-deepresearch-30b-a3b:free","promptVersion":{"domain":"t
+2025-11-24T20:06:41.062350256Z ======================================================================
+2025-11-24T20:06:41.062352296Z 
+2025-11-24T20:06:41.286324864Z [DB_LOG] INSERT site_audits: 1 record(s) in 126ms
+2025-11-24T20:06:56.8439837Z [DB_LOG] UPDATE site_audits: 1 record(s) in 128ms
+2025-11-24T20:06:57.295178435Z [pub:6814f375] ⚠ No ad elements to batch insert
+2025-11-24T20:06:58.531015896Z 
+2025-11-24T20:06:58.531071259Z AUDIT SUMMARY - techssoftwares.com
+2025-11-24T20:06:58.531078909Z ======================================================================
+2025-11-24T20:06:58.531081789Z 
+2025-11-24T20:06:58.531084649Z CRAWLER
+2025-11-24T20:06:58.531088089Z   Status: PROCESSED
+2025-11-24T20:06:58.53109068Z 
+2025-11-24T20:06:58.53109368Z CONTENTANALYZER
+2025-11-24T20:06:58.53109659Z   Status: PROCESSED
+2025-11-24T20:06:58.53109894Z 
+2025-11-24T20:06:58.53110174Z ADANALYZER
+2025-11-24T20:06:58.53110446Z   Status: PROCESSED
+2025-11-24T20:06:58.53110684Z 
+2025-11-24T20:06:58.53110953Z POLICYCHECKER
+2025-11-24T20:06:58.531112011Z   Status: PROCESSED
+2025-11-24T20:06:58.531114591Z 
+2025-11-24T20:06:58.531117071Z TECHNICALCHECKER
+2025-11-24T20:06:58.531119701Z   Status: PROCESSED
+2025-11-24T20:06:58.531122161Z 
+2025-11-24T20:06:58.531124751Z SCORER
+2025-11-24T20:06:58.531127182Z   Status: PROCESSED
+2025-11-24T20:06:58.531129631Z 
+2025-11-24T20:06:58.531132152Z AIASSISTANCE
+2025-11-24T20:06:58.531134822Z   Status: PROCESSED
+2025-11-24T20:06:58.531137502Z 
+2025-11-24T20:06:58.531139962Z ======================================================================
+2025-11-24T20:06:58.531142662Z Total Issues Found: 0
+2025-11-24T20:06:58.531145823Z Total Positive Findings: 0
+2025-11-24T20:06:58.531148552Z 
+2025-11-24T20:06:58.53129572Z AUDIT FINDINGS
+2025-11-24T20:06:58.53130124Z ======================================================================
+2025-11-24T20:06:58.531303691Z 
+2025-11-24T20:06:58.531306171Z [CRAWLER]
+2025-11-24T20:06:58.531309001Z   url: techssoftwares.com
+2025-11-24T20:06:58.531311301Z   metrics:
+2025-11-24T20:06:58.531314501Z     navigationTiming: {"fetchStart":0,"requestStart":0,"responseStart":0,"responseEnd":307.39999985694
+2025-11-24T20:06:58.531317521Z     coreLWP: {"ttfb":0,"fcp":0,"lcp":0,"cls":0,"dcp":null}
+2025-11-24T20:06:58.531319851Z     jsWeight: 0
+2025-11-24T20:06:58.531322181Z     resourceCount: 0
+2025-11-24T20:06:58.531325062Z     resourceTiming: {"images":0,"stylesheets":0,"scripts":0,"fonts":0}
+2025-11-24T20:06:58.531328152Z   adElements: [0 items]
+2025-11-24T20:06:58.531330832Z   iframes: [0 items]
+2025-11-24T20:06:58.531333352Z   content: [1 items]
+2025-11-24T20:06:58.531335802Z     - No content extracted
+2025-11-24T20:06:58.531338362Z   viewport: desktop
+2025-11-24T20:06:58.531341022Z   publisherId: 6814f375-59b1-4dec-b0ab-af311931affb
+2025-11-24T20:06:58.531358083Z   siteAuditId: 39ce1b34-daf0-43f5-a85f-da202b796f14
+2025-11-24T20:06:58.531361063Z 
+2025-11-24T20:06:58.531364094Z [CONTENTANALYZER]
+2025-11-24T20:06:58.531366664Z   textLength: 20
+2025-11-24T20:06:58.531369474Z   analysisTimestamp: 2025-11-24T20:06:42.942Z
+2025-11-24T20:06:58.531372174Z   entropy:
+2025-11-24T20:06:58.531374824Z     entropyScore: 0.728
+2025-11-24T20:06:58.531377614Z     isLowEntropy: false
+2025-11-24T20:06:58.531380244Z     contentLength: 20
+2025-11-24T20:06:58.531383065Z     flagStatus: clean
+2025-11-24T20:06:58.531385815Z   similarity:
+2025-11-24T20:06:58.531389565Z     simhashFingerprint: 0001011011011000010100001011101100010110110110000101000010111011
+2025-11-24T20:06:58.531392245Z     contentHash: 5f196686
+2025-11-24T20:06:58.531394755Z     tokenCount: 3
+2025-11-24T20:06:58.531397476Z   readability:
+2025-11-24T20:06:58.531399845Z     readabilityScore: 100
+2025-11-24T20:06:58.531402296Z     gradeLevel: 0
+2025-11-24T20:06:58.531404646Z     readabilityLevel: unknown
+2025-11-24T20:06:58.531406996Z     humanAuthorshipLikelihood: true
+2025-11-24T20:06:58.531409646Z   ai:
+2025-11-24T20:06:58.531412276Z     aiLikelihood: 0
+2025-11-24T20:06:58.531414626Z     aiScore: 0
+2025-11-24T20:06:58.531417126Z     aiIndicators: []
+2025-11-24T20:06:58.531419877Z     aiConfidence: 0
+2025-11-24T20:06:58.531422697Z   clickbait:
+2025-11-24T20:06:58.531425077Z     clickbaitScore: 0
+2025-11-24T20:06:58.531427567Z     isClickbait: false
+2025-11-24T20:06:58.531430157Z     clickbaitPatterns: []
+2025-11-24T20:06:58.531432667Z     clickbaitRiskLevel: none
+2025-11-24T20:06:58.531435367Z   freshness:
+2025-11-24T20:06:58.531438047Z     contentFreshness: unknown
+2025-11-24T20:06:58.531440698Z     daysOld: null
+2025-11-24T20:06:58.531443098Z     lastUpdatedDate: null
+2025-11-24T20:06:58.531445548Z     stalenessIndicator: false
+2025-11-24T20:06:58.531448128Z   riskAssessment:
+2025-11-24T20:06:58.531450538Z     detectedRisks: ["insufficient_content_tokens"]
+2025-11-24T20:06:58.531452918Z     totalRiskScore: 0.1
+2025-11-24T20:06:58.531455188Z     riskLevel: low
+2025-11-24T20:06:58.531457599Z     recommendedAction: auto_approve
+2025-11-24T20:06:58.531459979Z   flagStatus: clean
+2025-11-24T20:06:58.531462099Z 
+2025-11-24T20:06:58.531464549Z [ADANALYZER]
+2025-11-24T20:06:58.531467019Z   success: true
+2025-11-24T20:06:58.531469389Z   data:
+2025-11-24T20:06:58.531471779Z     timestamp: 2025-11-24T20:06:42.942Z
+2025-11-24T20:06:58.531474569Z     publisherId: 6814f375-59b1-4dec-b0ab-af311931affb
+2025-11-24T20:06:58.53147712Z     metadata: {"totalNetworkRequests":0,"totalAdElements":0,"viewport":{"width":1920,"height":
+2025-11-24T20:06:58.53147974Z     analysis: {"patterns":{"timestamp":"2025-11-24T20:06:42.942Z","networkAnalysis":{"detected
+2025-11-24T20:06:58.53148231Z     correlations: []
+2025-11-24T20:06:58.53148465Z 
+2025-11-24T20:06:58.53148708Z [POLICYCHECKER]
+2025-11-24T20:06:58.53149002Z   timestamp: 2025-11-24T20:06:42.942Z
+2025-11-24T20:06:58.53149275Z   jurisdiction:
+2025-11-24T20:06:58.531499331Z     primaryJurisdiction: US
+2025-11-24T20:06:58.531502171Z     allJurisdictions: []
+2025-11-24T20:06:58.531505651Z     signals: {"tld":null,"language":null,"currency":null,"geoLocation":null,"cookieConsent":n
+2025-11-24T20:06:58.531508471Z     confidence: 0
+2025-11-24T20:06:58.531511281Z   violations: [0 items]
+2025-11-24T20:06:58.531514111Z   complianceLevel: compliant
+2025-11-24T20:06:58.531519462Z   policies:
+2025-11-24T20:06:58.531522502Z     NO_ADULT_CONTENT: {"name":"No Adult Content","status":"compliant","violations":[],"severity":"crit
+2025-11-24T20:06:58.531531542Z     NO_GAMBLING: {"name":"No Gambling Content","status":"compliant","violations":[],"severity":"c
+2025-11-24T20:06:58.531534183Z     NO_MALWARE: {"name":"No Malware or Unsafe Software","status":"compliant","violations":[],"se
+2025-11-24T20:06:58.531536923Z     NO_DECEPTIVE_PRACTICES: {"name":"No Deceptive Practices","status":"compliant","violations":[],"severity"
+2025-11-24T20:06:58.531539633Z     NO_VIOLENT_CONTENT: {"name":"No Violent or Hateful Content","status":"compliant","violations":[],"se
+2025-11-24T20:06:58.531542133Z   summary:
+2025-11-24T20:06:58.531544603Z     complianceLevel: compliant
+2025-11-24T20:06:58.531546963Z     totalPolicies: 8
+2025-11-24T20:06:58.531549353Z     compliantPolicies: 8
+2025-11-24T20:06:58.531551543Z     violatingPolicies: 0
+2025-11-24T20:06:58.531553864Z     totalViolations: 0
+2025-11-24T20:06:58.531556354Z   executionTime: 2
+2025-11-24T20:06:58.531558684Z   categories:
+2025-11-24T20:06:58.531561114Z     detectedCategories: []
+2025-11-24T20:06:58.531563604Z     primaryCategory: null
+2025-11-24T20:06:58.531566184Z     scores: {"adult":0,"gambling":0,"violence":0,"drugs":0,"weapons":0,"hate":0,"education":
+2025-11-24T20:06:58.531568924Z     analysis: {"hasSensitiveContent":false,"sensitiveCategories":[],"riskLevel":"low","summary
+2025-11-24T20:06:58.531571654Z   restrictedKeywords:
+2025-11-24T20:06:58.531574234Z     monetizationAbuse: []
+2025-11-24T20:06:58.531576965Z     prohibitedContent: []
+2025-11-24T20:06:58.531580125Z     regulatoryViolations: []
+2025-11-24T20:06:58.531582925Z     googleBanned: []
+2025-11-24T20:06:58.531585315Z     total: 0
+2025-11-24T20:06:58.531587585Z 
+2025-11-24T20:06:58.531589955Z [TECHNICALCHECKER]
+2025-11-24T20:06:58.531592595Z   timestamp: 2025-11-24T20:06:42.942Z
+2025-11-24T20:06:58.531595066Z   domain: techssoftwares.com
+2025-11-24T20:06:58.531597856Z   components:
+2025-11-24T20:06:58.531600106Z     performance: {"lcp":null,"cls":null,"fid":null,"tbt":null,"performanceScore":0,"recommendatio
+2025-11-24T20:06:58.531602386Z     brokenLinks: {"brokenCount":0,"brokenLinks":[],"categories":{"success":[],"redirect":[],"clie
+2025-11-24T20:06:58.531604806Z     domainIntel: {}
+2025-11-24T20:06:58.531607136Z     viewportOcclusion: {}
+2025-11-24T20:06:58.531609636Z     ssl: {"valid":false,"error":"","daysToExpiry":0,"chainValid":false,"issuer":"Unknown"
+2025-11-24T20:06:58.531612327Z   technicalHealthScore: 30
+2025-11-24T20:06:58.531614897Z   summary:
+2025-11-24T20:06:58.531617207Z     totalIssues: 1
+2025-11-24T20:06:58.531619617Z     criticalIssues: ["SSL Certificate issue: Invalid"]
+2025-11-24T20:06:58.531621897Z     warnings: []
+2025-11-24T20:06:58.531624197Z     recommendations: ["Performance metrics are within acceptable ranges"]
+2025-11-24T20:06:58.531626637Z     componentStatus: {"ssl":"unhealthy","performance":"poor","adsTxt":"healthy","brokenLinks":"health
+2025-11-24T20:06:58.531629147Z   executionTime: 654
+2025-11-24T20:06:58.531631457Z 
+2025-11-24T20:06:58.531633908Z [SCORER]
+2025-11-24T20:06:58.531636488Z   data:
+2025-11-24T20:06:58.531639318Z     auditId: undefined
+2025-11-24T20:06:58.531654639Z     publisherId: 6814f375-59b1-4dec-b0ab-af311931affb
+2025-11-24T20:06:58.531657669Z     riskScore: 0.00857142857142857
+2025-11-24T20:06:58.531660079Z     mfaProbability: 0.002243829468960359
+2025-11-24T20:06:58.531662709Z     scores: {"mfaProbability":0.002243829468960359,"overallRiskScore":0.00857142857142857,"w
+2025-11-24T20:06:58.531664879Z 
+2025-11-24T20:06:58.531667209Z [AIASSISTANCE]
+2025-11-24T20:06:58.53166973Z   data:
+2025-11-24T20:06:58.53167857Z     llmResponse: 
+2025-11-24T20:06:58.53168105Z 
+2025-11-24T20:06:58.53168371Z ### Module: Ad Behavior Analysis
+2025-11-24T20:06:58.53168634Z found(issues:["Ad Density 0%", "Auto-Refresh Rate 0/min", "Aggressive Positioning 0%"])
+2025-11-24T20:06:58.53168872Z cause:["No ad implementation detected", "Absence of automated ad rotation", "No intrusive ad placements"]
+2025-11-24T20:06:58.531691611Z fix:["Implement legitimate ad networks if monetization is intended", "Add compliant ad placements with clear disclosures"]
+2025-11-24T20:06:58.531693861Z impact(score_change="Minimal risk reduction")
+2025-11-24T20:06:58.531696231Z good(["No intrusive ad behaviors detected", "No scroll jacking or occlusion issues"])
+2025-11-24T20:06:58.531698881Z review_summary("Absence of ads reduces MFA risk but indicates potential monetization failure. No behavioral red flags.")
+2025-11-24T20:06:58.531701201Z 
+2025-11-24T20:06:58.531703861Z ### Module: Content Quality Indicators
+2025-11-24T20:06:58.531706191Z found(issues:["Text Entropy 0/100", "Readability 0/100", "Content Freshness 0/100", "Content Similarity 0%"])
+2025-11-24T20:06:58.531709481Z cause:["Zero original content generation", "Complete lack of updates or unique material", "Absence of text-based content entirely"]
+2025-11-24T20:06:58.531712192Z fix(["Develop original content strategy", "Implement CMS for content updates", "Remove placeholder/parking page elements"])
+2025-11-24T20:06:58.531714632Z impact(score_change="-40% overall risk score")
+2025-11-24T20:06:58.531717162Z good(["AI-generated content likelihood 0%", "Clickbait score 0/100"])
+2025-11-24T20:06:58.531719932Z review_summary("Critical content deficiencies dominate risk profile. Zero engagement potential due to non-existent content.")
+2025-11-24T20:06:58.531722402Z 
+2025-11-24T20:06:58.531725162Z ### Module: Technical Infrastructure
+2025-11-24T20:06:58.531727693Z found(issues:["Page Load Performance 0/100"])
+2025-11-24T20:06:58.531730443Z cause:["Server resource starvation", "Unoptimized assets", "Possible DDoS mitigation interference"]
+2025-11-24T20:06:58.531733193Z fix(["Upgrade hosting tier", "Implement caching and minification", "Audit server response times"])
+2025-11-24T20:06:58.531735803Z impact(score_change="-15% overall risk score")
+2025-11-24T20:06:58.531738403Z good(["SSL certificate valid", "No broken links", "Transparent WHOIS", "Established domain reputation"])
+2025-11-24T20:06:58.531740933Z review_summary("Severe performance issues undermine UX despite solid foundational infrastructure. Revenue impact likely.")
+2025-11-24T20:06:58.531743303Z 
+2025-11-24T20:06:58.531745713Z ### Module: Layout & UX Anomalies
+2025-11-24T20:06:58.531748023Z found(issues:[])
+2025-11-24T20:06:58.531750604Z cause:[]
+2025-11-24T20:06:58.531753054Z fix:[]
+2025-11-24T20:06:58.531755504Z impact(score_change="0% (neutral)")
+2025-11-24T20:06:58.531758064Z good(["No viewport inconsistencies", "Zero rendering anomalies", "No hidden elements detected"])
+2025-11-24T20:06:58.531760754Z review_summary("Exceptional UX compliance. No technical or design red flags detected.")
+2025-11-24T20:06:58.531763104Z 
+2025-11-24T20:06:58.531765824Z ### Module: Risk Probability Assessment
+2025-11-24T20:06:58.531768635Z found(issues:["Overall Risk Score 0/10", "MFA Probability NaN%", "Confidence Level 0%"])
+2025-11-24T20:06:58.531771255Z cause:["Insufficient data from inactive site", "Bayesian model requires traffic/content inputs", "Zero behavioral signals for analysis"]
+2025-11-24T20:06:58.531773815Z fix(["Generate organic traffic", "Add content for behavioral analysis", "Re-audit after content deployment"])
+2025-11-24T20:06:58.531776545Z impact(score_change="0% (artificially low due to inactivity)")
+2025-11-24T20:06:58.531785065Z good(["Risk direction stable", "No anomalies detected"])
+2025-11-24T20:06:58.531787985Z review_summary("Audit methodology failed due to site inactivity. Scores reflect absence of data rather than quality.")
+2025-11-24T20:06:58.531790216Z 
+2025-11-24T20:06:58.531792586Z ### Module: GAM Performance
+2025-11-24T20:06:58.531795286Z found(issues:["No CTR/eCPM/fill rate data", "Impression spike not detected"])
+2025-11-24T20:06:58.531797806Z cause:["Zero ad impressions generated", "No revenue streams active", "Publisher group misalignment due to content void"]
+2025-11-24T20:06:58.531800236Z fix(["Integrate ad networks", "Drive traffic through SEO/content marketing", "Align with appropriate publisher groups"])
+2025-11-24T20:06:58.531802606Z impact(score_change="-25% overall risk score")
+2025-11-24T20:06:58.531805097Z good(["Revenue consistency noted as 'normal' (due to zero revenue)"])
+2025-11-24T20:06:58.531807877Z review_summary("Complete absence of monetization signals. Revenue metrics meaningless without traffic/content.")
+2025-11-24T20:06:58.531810227Z 
+2025-11-24T20:06:58.531812807Z ### Module: Policy Compliance
+2025-11-24T20:06:58.531815447Z found(issues:[])
+2025-11-24T20:06:58.531818217Z cause:[]
+2025-11-24T20:06:58.531821127Z fix:[]
+2025-11-24T20:06:58.531827088Z impact(score_change="0% (compliance irrelevant without content)")
+2025-11-24T20:06:58.531830068Z good(["Compliant with AdChoices, Google Policies, IAB Standards"])
+2025-11-24T20:06:58.531832628Z review_summary("Compliance status is technically accurate but operationally meaningless without active content/advertising.")
+2025-11-24T20:06:58.531835218Z     interpretation: {"rawResponse":"\n\n### Module: Ad Behavior Analysis\nfound(issues:[\"Ad Density
+2025-11-24T20:06:58.531837778Z     timestamp: 2025-11-24T20:06:55.890Z
+2025-11-24T20:06:58.531854939Z     metadata: {"model":"alibaba/tongyi-deepresearch-30b-a3b:free","promptVersion":{"domain":"t
+2025-11-24T20:06:58.531858169Z ======================================================================
+2025-11-24T20:06:58.531860429Z 
+2025-11-24T20:06:58.752518256Z [DB_LOG] INSERT site_audits: 1 record(s) in 99ms
+2025-11-24T20:07:00.577604654Z [domain:primary] ⚠ Failed to fetch ads.txt, skipping ads.txt validation
+2025-11-24T20:07:00.57772672Z [domain:primary] ⚠ ads.txt validation skipped
+2025-11-24T20:07:01.746120532Z [domain:primary] ⚠ Failed to fetch ads.txt, skipping ads.txt validation
+2025-11-24T20:07:01.746245628Z [domain:primary] ⚠ ads.txt validation skipped
+2025-11-24T20:07:02.040591517Z [pub:e3163306] ⚠ No GAM data available for publisher
+2025-11-24T20:07:09.906649436Z [DB_LOG] UPDATE site_audits: 1 record(s) in 163ms
+2025-11-24T20:07:10.394991712Z [pub:e3163306] ⚠ No ad elements to batch insert
+2025-11-24T20:07:11.508128714Z 
+2025-11-24T20:07:11.508153425Z AUDIT SUMMARY - primary
+2025-11-24T20:07:11.508158305Z ======================================================================
+2025-11-24T20:07:11.508161916Z 
+2025-11-24T20:07:11.508165756Z CRAWLER
+2025-11-24T20:07:11.508170316Z   Status: PROCESSED
+2025-11-24T20:07:11.508173686Z 
+2025-11-24T20:07:11.508177166Z CONTENTANALYZER
+2025-11-24T20:07:11.508180646Z   Status: PROCESSED
+2025-11-24T20:07:11.508183977Z 
+2025-11-24T20:07:11.508187497Z ADANALYZER
+2025-11-24T20:07:11.508191357Z   Status: PROCESSED
+2025-11-24T20:07:11.508197187Z 
+2025-11-24T20:07:11.508203338Z POLICYCHECKER
+2025-11-24T20:07:11.508208968Z   Status: PROCESSED
+2025-11-24T20:07:11.508214258Z 
+2025-11-24T20:07:11.508220239Z TECHNICALCHECKER
+2025-11-24T20:07:11.5082388Z   Status: PROCESSED
+2025-11-24T20:07:11.50824102Z 
+2025-11-24T20:07:11.50824313Z SCORER
+2025-11-24T20:07:11.50824535Z   Status: PROCESSED
+2025-11-24T20:07:11.50824731Z 
+2025-11-24T20:07:11.50824936Z AIASSISTANCE
+2025-11-24T20:07:11.50825147Z   Status: PROCESSED
+2025-11-24T20:07:11.50825341Z 
+2025-11-24T20:07:11.508258281Z ======================================================================
+2025-11-24T20:07:11.508260491Z Total Issues Found: 0
+2025-11-24T20:07:11.508262681Z Total Positive Findings: 0
+2025-11-24T20:07:11.508264821Z 
+2025-11-24T20:07:11.508335565Z AUDIT FINDINGS
+2025-11-24T20:07:11.508342045Z ======================================================================
+2025-11-24T20:07:11.508345335Z 
+2025-11-24T20:07:11.508348585Z [CRAWLER]
+2025-11-24T20:07:11.508352095Z   url: primary
+2025-11-24T20:07:11.508355306Z   metrics:
+2025-11-24T20:07:11.508359426Z     navigationTiming: {"fetchStart":0,"requestStart":0,"responseStart":0,"responseEnd":395.89999985694
+2025-11-24T20:07:11.508363796Z     coreLWP: {"ttfb":0,"fcp":0,"lcp":0,"cls":0,"dcp":null}
+2025-11-24T20:07:11.508367586Z     jsWeight: 0
+2025-11-24T20:07:11.508370216Z     resourceCount: 0
+2025-11-24T20:07:11.508372396Z     resourceTiming: {"images":0,"stylesheets":0,"scripts":0,"fonts":0}
+2025-11-24T20:07:11.508374476Z   adElements: [0 items]
+2025-11-24T20:07:11.508376547Z   iframes: [0 items]
+2025-11-24T20:07:11.508378637Z   content: [1 items]
+2025-11-24T20:07:11.508380867Z     - No content extracted
+2025-11-24T20:07:11.508384247Z   viewport: desktop
+2025-11-24T20:07:11.508387997Z   publisherId: e3163306-a923-4d90-8663-f91107a6f6e5
+2025-11-24T20:07:11.508391517Z   siteAuditId: af51e9e4-6a18-4d10-81f9-108f280fdaf4
+2025-11-24T20:07:11.508394417Z 
+2025-11-24T20:07:11.508398358Z [CONTENTANALYZER]
+2025-11-24T20:07:11.508401588Z   textLength: 20
+2025-11-24T20:07:11.508405498Z   analysisTimestamp: 2025-11-24T20:07:00.541Z
+2025-11-24T20:07:11.508409028Z   entropy:
+2025-11-24T20:07:11.508412289Z     entropyScore: 0.728
+2025-11-24T20:07:11.508415679Z     isLowEntropy: false
+2025-11-24T20:07:11.508418709Z     contentLength: 20
+2025-11-24T20:07:11.508421659Z     flagStatus: clean
+2025-11-24T20:07:11.508424539Z   similarity:
+2025-11-24T20:07:11.508427999Z     simhashFingerprint: 0001011011011000010100001011101100010110110110000101000010111011
+2025-11-24T20:07:11.50843089Z     contentHash: 5f196686
+2025-11-24T20:07:11.50843409Z     tokenCount: 3
+2025-11-24T20:07:11.50843775Z   readability:
+2025-11-24T20:07:11.50844069Z     readabilityScore: 100
+2025-11-24T20:07:11.50844367Z     gradeLevel: 0
+2025-11-24T20:07:11.50844658Z     readabilityLevel: unknown
+2025-11-24T20:07:11.50845006Z     humanAuthorshipLikelihood: true
+2025-11-24T20:07:11.508453251Z   ai:
+2025-11-24T20:07:11.508456461Z     aiLikelihood: 0
+2025-11-24T20:07:11.508459651Z     aiScore: 0
+2025-11-24T20:07:11.508462761Z     aiIndicators: []
+2025-11-24T20:07:11.508465791Z     aiConfidence: 0
+2025-11-24T20:07:11.508469052Z   clickbait:
+2025-11-24T20:07:11.508472282Z     clickbaitScore: 0
+2025-11-24T20:07:11.508475472Z     isClickbait: false
+2025-11-24T20:07:11.508478742Z     clickbaitPatterns: []
+2025-11-24T20:07:11.508481982Z     clickbaitRiskLevel: none
+2025-11-24T20:07:11.508485082Z   freshness:
+2025-11-24T20:07:11.508488233Z     contentFreshness: unknown
+2025-11-24T20:07:11.508491282Z     daysOld: null
+2025-11-24T20:07:11.508494253Z     lastUpdatedDate: null
+2025-11-24T20:07:11.508497623Z     stalenessIndicator: false
+2025-11-24T20:07:11.508510574Z   riskAssessment:
+2025-11-24T20:07:11.508513944Z     detectedRisks: ["insufficient_content_tokens"]
+2025-11-24T20:07:11.508516834Z     totalRiskScore: 0.1
+2025-11-24T20:07:11.508519954Z     riskLevel: low
+2025-11-24T20:07:11.508523244Z     recommendedAction: auto_approve
+2025-11-24T20:07:11.508526644Z   flagStatus: clean
+2025-11-24T20:07:11.508529464Z 
+2025-11-24T20:07:11.508532545Z [ADANALYZER]
+2025-11-24T20:07:11.508535655Z   success: true
+2025-11-24T20:07:11.508538715Z   data:
+2025-11-24T20:07:11.508541865Z     timestamp: 2025-11-24T20:07:00.541Z
+2025-11-24T20:07:11.508545095Z     publisherId: e3163306-a923-4d90-8663-f91107a6f6e5
+2025-11-24T20:07:11.508548276Z     metadata: {"totalNetworkRequests":0,"totalAdElements":0,"viewport":{"width":1920,"height":
+2025-11-24T20:07:11.508551306Z     analysis: {"patterns":{"timestamp":"2025-11-24T20:07:00.541Z","networkAnalysis":{"detected
+2025-11-24T20:07:11.508554686Z     correlations: []
+2025-11-24T20:07:11.508557406Z 
+2025-11-24T20:07:11.508560376Z [POLICYCHECKER]
+2025-11-24T20:07:11.508563786Z   timestamp: 2025-11-24T20:07:00.541Z
+2025-11-24T20:07:11.508566766Z   jurisdiction:
+2025-11-24T20:07:11.508569657Z     primaryJurisdiction: US
+2025-11-24T20:07:11.508572557Z     allJurisdictions: []
+2025-11-24T20:07:11.508575577Z     signals: {"tld":null,"language":null,"currency":null,"geoLocation":null,"cookieConsent":n
+2025-11-24T20:07:11.508578577Z     confidence: 0
+2025-11-24T20:07:11.508581367Z   violations: [0 items]
+2025-11-24T20:07:11.508584247Z   complianceLevel: compliant
+2025-11-24T20:07:11.508587518Z   policies:
+2025-11-24T20:07:11.508591158Z     NO_ADULT_CONTENT: {"name":"No Adult Content","status":"compliant","violations":[],"severity":"crit
+2025-11-24T20:07:11.508594468Z     NO_GAMBLING: {"name":"No Gambling Content","status":"compliant","violations":[],"severity":"c
+2025-11-24T20:07:11.508597558Z     NO_MALWARE: {"name":"No Malware or Unsafe Software","status":"compliant","violations":[],"se
+2025-11-24T20:07:11.508600648Z     NO_DECEPTIVE_PRACTICES: {"name":"No Deceptive Practices","status":"compliant","violations":[],"severity"
+2025-11-24T20:07:11.508604028Z     NO_VIOLENT_CONTENT: {"name":"No Violent or Hateful Content","status":"compliant","violations":[],"se
+2025-11-24T20:07:11.508607299Z   summary:
+2025-11-24T20:07:11.508610659Z     complianceLevel: compliant
+2025-11-24T20:07:11.508613929Z     totalPolicies: 8
+2025-11-24T20:07:11.508616959Z     compliantPolicies: 8
+2025-11-24T20:07:11.508620179Z     violatingPolicies: 0
+2025-11-24T20:07:11.5086231Z     totalViolations: 0
+2025-11-24T20:07:11.508626429Z   executionTime: 2
+2025-11-24T20:07:11.50862972Z   categories:
+2025-11-24T20:07:11.50863281Z     detectedCategories: []
+2025-11-24T20:07:11.50863603Z     primaryCategory: null
+2025-11-24T20:07:11.50863919Z     scores: {"adult":0,"gambling":0,"violence":0,"drugs":0,"weapons":0,"hate":0,"education":
+2025-11-24T20:07:11.508642361Z     analysis: {"hasSensitiveContent":false,"sensitiveCategories":[],"riskLevel":"low","summary
+2025-11-24T20:07:11.508645541Z   restrictedKeywords:
+2025-11-24T20:07:11.508648731Z     monetizationAbuse: []
+2025-11-24T20:07:11.508654861Z     prohibitedContent: []
+2025-11-24T20:07:11.508658231Z     regulatoryViolations: []
+2025-11-24T20:07:11.508661311Z     googleBanned: []
+2025-11-24T20:07:11.508664482Z     total: 0
+2025-11-24T20:07:11.508667302Z 
+2025-11-24T20:07:11.508670292Z [TECHNICALCHECKER]
+2025-11-24T20:07:11.508673662Z   timestamp: 2025-11-24T20:07:00.541Z
+2025-11-24T20:07:11.508676932Z   domain: primary
+2025-11-24T20:07:11.508680132Z   components:
+2025-11-24T20:07:11.508689553Z     performance: {"lcp":null,"cls":null,"fid":null,"tbt":null,"performanceScore":0,"recommendatio
+2025-11-24T20:07:11.508692803Z     brokenLinks: {"brokenCount":0,"brokenLinks":[],"categories":{"success":[],"redirect":[],"clie
+2025-11-24T20:07:11.508696003Z     domainIntel: {}
+2025-11-24T20:07:11.508699153Z     viewportOcclusion: {}
+2025-11-24T20:07:11.508702433Z     ssl: {"valid":false,"error":"","daysToExpiry":0,"chainValid":false,"issuer":"Unknown"
+2025-11-24T20:07:11.508705584Z   technicalHealthScore: 15
+2025-11-24T20:07:11.508708654Z   summary:
+2025-11-24T20:07:11.508711894Z     totalIssues: 1
+2025-11-24T20:07:11.508714904Z     criticalIssues: ["SSL Certificate issue: Invalid"]
+2025-11-24T20:07:11.508718064Z     warnings: ["ads.txt validation skipped: fetch failed"]
+2025-11-24T20:07:11.508721285Z     recommendations: ["Performance metrics are within acceptable ranges"]
+2025-11-24T20:07:11.508724295Z     componentStatus: {"ssl":"unhealthy","performance":"poor","adsTxt":"skipped","brokenLinks":"health
+2025-11-24T20:07:11.508727485Z   executionTime: 36
+2025-11-24T20:07:11.508730395Z 
+2025-11-24T20:07:11.508733625Z [SCORER]
+2025-11-24T20:07:11.508736805Z   data:
+2025-11-24T20:07:11.508740066Z     auditId: undefined
+2025-11-24T20:07:11.508757336Z     publisherId: e3163306-a923-4d90-8663-f91107a6f6e5
+2025-11-24T20:07:11.508760936Z     riskScore: 0.00857142857142857
+2025-11-24T20:07:11.508763447Z     mfaProbability: 0.002243829468960359
+2025-11-24T20:07:11.508766087Z     scores: {"mfaProbability":0.002243829468960359,"overallRiskScore":0.00857142857142857,"w
+2025-11-24T20:07:11.508768357Z 
+2025-11-24T20:07:11.508770757Z [AIASSISTANCE]
+2025-11-24T20:07:11.508773497Z   data:
+2025-11-24T20:07:11.508776257Z     llmResponse: 
+2025-11-24T20:07:11.508778508Z 
+2025-11-24T20:07:11.508780897Z ```toon
+2025-11-24T20:07:11.508783368Z module(Ad_Behavior)
+2025-11-24T20:07:11.508786148Z found(issues:["Zero ad density", "No auto-refresh", "No viewport occlusion", "No aggressive positioning"])
+2025-11-24T20:07:11.508789588Z cause:["Complete absence of advertising elements", "No automated ad reloading", "No evidence of intrusive ad placements"]
+2025-11-24T20:07:11.508792688Z fix:["Implement legitimate ad placements", "Add controlled ad refresh mechanisms", "Ensure ad positioning complies with IAB standards"]
+2025-11-24T20:07:11.508794428Z impact(score_change="-15% risk inflation due to missing monetization signals")
+2025-11-24T20:07:11.508796108Z good(["Ad density=0% indicates no intrusive practices"])
+2025-11-24T20:07:11.508797829Z review_summary("Absence of all ad behaviors creates false impression of non-commercial intent, artificially suppressing risk scores")
+2025-11-24T20:07:11.508799409Z 
+2025-11-24T20:07:11.508801049Z module(Content_Quality)
+2025-11-24T20:07:11.508802839Z found(issues:["Text entropy=0/100", "Readability=0/100", "Content freshness=0/100", "Similarity=0%"])
+2025-11-24T20:07:11.508804589Z cause:["Content generation failure", "No content updates", "Lack of original material"]
+2025-11-24T20:07:11.508806329Z fix(["Implement content management system", "Schedule regular content updates", "Use original content generation tools"])
+2025-11-24T20:07:11.508808059Z impact(score_change="-20% quality deduction due to content void")
+2025-11-24T20:07:11.508809789Z good(["Similarity=0% indicates no content scraping", "Readability=0/100 prevents low-quality content penalties"])
+2025-11-24T20:07:11.508811519Z review_summary("Complete content deficiency creates risk assessment blind spots across all quality dimensions")
+2025-11-24T20:07:11.508813079Z 
+2025-11-24T20:07:11.508814749Z module(Technical_Infrastructure)
+2025-11-24T20:07:11.50882042Z found(issues:["Page load=0/100", "Domain reputation=Established"])
+2025-11-24T20:07:11.50882248Z cause:["Critical performance failures", "Valid SSL certificate but no functional content"]
+2025-11-24T20:07:11.50882424Z fix(["Optimize assets", "Implement caching", "Fix server response times"])
+2025-11-24T20:07:11.508826Z impact(score_change="-10% technical risk due to unusable pages")
+2025-11-24T20:07:11.50882772Z good(["SSL certificate valid", "WHOIS transparency"])
+2025-11-24T20:07:11.5088294Z review_summary("Technical failures prevent content delivery despite clean infrastructure signals")
+2025-11-24T20:07:11.50883099Z 
+2025-11-24T20:07:11.50883268Z module(Risk_Assessment)
+2025-11-24T20:07:11.50883479Z found(issues:["MFA probability=NaN%", "Risk score=0/10", "Confidence=0%"])
+2025-11-24T20:07:11.508836531Z cause:["Data deficiency in Bayesian engine", "No measurable risk indicators", "Absence of historical benchmarks"]
+2025-11-24T20:07:11.508838231Z fix(["Collect baseline metrics", "Implement analytics tracking", "Establish content publishing schedule"])
+2025-11-24T20:07:11.508839981Z impact(score_change="NaN% creates unquantifiable risk exposure")
+2025-11-24T20:07:11.508841641Z good(["Risk direction=Stable", "Revenue consistent"])
+2025-11-24T20:07:11.508843351Z review_summary("Complete data vacuum prevents meaningful risk quantification despite stable surface indicators")
+2025-11-24T20:07:11.508844931Z 
+2025-11-24T20:07:11.508848861Z module(GAM_Performance)
+2025-11-24T20:07:11.508850701Z found(issues:["No CTR/eCPM/fill rate data", "No impression spikes", "Publisher alignment=Aligned"])
+2025-11-24T20:07:11.508852441Z cause:["Zero ad inventory", "No impression tracking", "Lack of monetization implementation"]
+2025-11-24T20:07:11.508854081Z fix(["Integrate ad servers", "Implement measurement tags", "Develop ad inventory strategy"])
+2025-11-24T20:07:11.508855732Z impact(score_change="Monetization risk=Critical")
+2025-11-24T20:07:11.508857401Z good(["Revenue consistency=Normal"])
+2025-11-24T20:07:11.508859082Z review_summary("Absence of all performance metrics masks fundamental monetization failure")
+2025-11-24T20:07:11.508860632Z 
+2025-11-24T20:07:11.508862262Z module(Policy_Compliance)
+2025-11-24T20:07:11.508864012Z found(issues:["No explicit violations", "Compliance status=Compliant"])
+2025-11-24T20:07:11.508866092Z cause:["No detectable policy breaches", "Surface-level compliance"]
+2025-11-24T20:07:11.508867832Z fix(["Implement content policies", "Establish ad transparency", "Document compliance mechanisms"])
+2025-11-24T20:07:11.508869512Z impact(score_change="0% immediate risk but high latent exposure")
+2025-11-24T20:07:11.508871162Z good(["Compliance status=Compliant", "Jurisdiction checks passed"])
+2025-11-24T20:07:11.508872832Z review_summary("Surface compliance masks deeper operational deficiencies")
+2025-11-24T20:07:11.508874513Z ```
+2025-11-24T20:07:11.508876142Z 
+2025-11-24T20:07:11.508877863Z **Overall Risk Assessment:**  
+2025-11-24T20:07:11.508889663Z The site exhibits critical operational deficiencies across all measurable dimensions. The complete absence of content (text entropy=0/100), ads (density=0%), and performance data (load=0/100) creates a risk assessment vacuum. While surface-level compliance exists and revenue shows consistency, these are likely artifacts of non-operational status rather than quality indicators. The NaN% MFA probability reflects system inability to evaluate rather than true safety. Immediate action required to establish functional content and monetization systems before meaningful risk assessment can occur.
+2025-11-24T20:07:11.508891713Z     interpretation: {"rawResponse":"\n\n```toon\nmodule(Ad_Behavior)\nfound(issues:[\"Zero ad densit
+2025-11-24T20:07:11.508899254Z     timestamp: 2025-11-24T20:07:08.991Z
+2025-11-24T20:07:11.508901984Z     metadata: {"model":"alibaba/tongyi-deepresearch-30b-a3b:free","promptVersion":{"domain":"p
+2025-11-24T20:07:11.508904474Z ======================================================================
+2025-11-24T20:07:11.508906894Z 
+2025-11-24T20:07:11.726830059Z [DB_LOG] INSERT site_audits: 1 record(s) in 114ms
+2025-11-24T20:07:13.441984578Z [domain:primary] ⚠ Failed to fetch ads.txt, skipping ads.txt validation
+2025-11-24T20:07:13.442083393Z [domain:primary] ⚠ ads.txt validation skipped
+2025-11-24T20:07:14.539167354Z [domain:primary] ⚠ Failed to fetch ads.txt, skipping ads.txt validation
+2025-11-24T20:07:14.539314692Z [domain:primary] ⚠ ads.txt validation skipped
+2025-11-24T20:07:14.868901204Z [pub:6035a1ae] ⚠ No GAM data available for publisher
+2025-11-24T20:07:21.601440761Z [DB_LOG] UPDATE site_audits: 1 record(s) in 134ms
+2025-11-24T20:07:22.0788256Z [pub:6035a1ae] ⚠ No ad elements to batch insert
+2025-11-24T20:07:23.155073462Z 
+2025-11-24T20:07:23.155096323Z AUDIT SUMMARY - primary
+2025-11-24T20:07:23.155100573Z ======================================================================
+2025-11-24T20:07:23.155102833Z 
+2025-11-24T20:07:23.155105134Z CRAWLER
+2025-11-24T20:07:23.155108344Z   Status: PROCESSED
+2025-11-24T20:07:23.155110254Z 
+2025-11-24T20:07:23.155112264Z CONTENTANALYZER
+2025-11-24T20:07:23.155114334Z   Status: PROCESSED
+2025-11-24T20:07:23.155116264Z 
+2025-11-24T20:07:23.155118394Z ADANALYZER
+2025-11-24T20:07:23.155120454Z   Status: PROCESSED
+2025-11-24T20:07:23.155122274Z 
+2025-11-24T20:07:23.155124235Z POLICYCHECKER
+2025-11-24T20:07:23.155126225Z   Status: PROCESSED
+2025-11-24T20:07:23.155128155Z 
+2025-11-24T20:07:23.155130135Z TECHNICALCHECKER
+2025-11-24T20:07:23.155132235Z   Status: PROCESSED
+2025-11-24T20:07:23.155134085Z 
+2025-11-24T20:07:23.155136055Z SCORER
+2025-11-24T20:07:23.155138075Z   Status: PROCESSED
+2025-11-24T20:07:23.155139915Z 
+2025-11-24T20:07:23.155141906Z AIASSISTANCE
+2025-11-24T20:07:23.155143916Z   Status: PROCESSED
+2025-11-24T20:07:23.155145776Z 
+2025-11-24T20:07:23.155147776Z ======================================================================
+2025-11-24T20:07:23.155149766Z Total Issues Found: 0
+2025-11-24T20:07:23.155151836Z Total Positive Findings: 0
+2025-11-24T20:07:23.155153856Z 
+2025-11-24T20:07:23.155319455Z AUDIT FINDINGS
+2025-11-24T20:07:23.155327435Z ======================================================================
+2025-11-24T20:07:23.155330775Z 
+2025-11-24T20:07:23.155333785Z [CRAWLER]
+2025-11-24T20:07:23.155336396Z   url: primary
+2025-11-24T20:07:23.155339166Z   metrics:
+2025-11-24T20:07:23.155342796Z     navigationTiming: {"fetchStart":0,"requestStart":0,"responseStart":0,"responseEnd":394.20000004768
+2025-11-24T20:07:23.155346036Z     coreLWP: {"ttfb":0,"fcp":0,"lcp":0,"cls":0,"dcp":null}
+2025-11-24T20:07:23.155348726Z     jsWeight: 0
+2025-11-24T20:07:23.155351196Z     resourceCount: 0
+2025-11-24T20:07:23.155353806Z     resourceTiming: {"images":0,"stylesheets":0,"scripts":0,"fonts":0}
+2025-11-24T20:07:23.155356397Z   adElements: [0 items]
+2025-11-24T20:07:23.155358697Z   iframes: [0 items]
+2025-11-24T20:07:23.155361087Z   content: [1 items]
+2025-11-24T20:07:23.155363817Z     - No content extracted
+2025-11-24T20:07:23.155366317Z   viewport: desktop
+2025-11-24T20:07:23.155368787Z   publisherId: 6035a1ae-b4e7-4f1d-bf16-5362b2781b8f
+2025-11-24T20:07:23.155371678Z   siteAuditId: a790f401-2952-4179-8b54-efc2ae38b6b6
+2025-11-24T20:07:23.155398689Z 
+2025-11-24T20:07:23.155401639Z [CONTENTANALYZER]
+2025-11-24T20:07:23.155404039Z   textLength: 20
+2025-11-24T20:07:23.155407369Z   analysisTimestamp: 2025-11-24T20:07:13.436Z
+2025-11-24T20:07:23.15540992Z   entropy:
+2025-11-24T20:07:23.155412449Z     entropyScore: 0.728
+2025-11-24T20:07:23.15541476Z     isLowEntropy: false
+2025-11-24T20:07:23.1554179Z     contentLength: 20
+2025-11-24T20:07:23.15542036Z     flagStatus: clean
+2025-11-24T20:07:23.15542296Z   similarity:
+2025-11-24T20:07:23.15542614Z     simhashFingerprint: 0001011011011000010100001011101100010110110110000101000010111011
+2025-11-24T20:07:23.15542876Z     contentHash: 5f196686
+2025-11-24T20:07:23.155431321Z     tokenCount: 3
+2025-11-24T20:07:23.155433861Z   readability:
+2025-11-24T20:07:23.155436281Z     readabilityScore: 100
+2025-11-24T20:07:23.155438731Z     gradeLevel: 0
+2025-11-24T20:07:23.155441251Z     readabilityLevel: unknown
+2025-11-24T20:07:23.155443681Z     humanAuthorshipLikelihood: true
+2025-11-24T20:07:23.155446141Z   ai:
+2025-11-24T20:07:23.155448642Z     aiLikelihood: 0
+2025-11-24T20:07:23.155451251Z     aiScore: 0
+2025-11-24T20:07:23.155453742Z     aiIndicators: []
+2025-11-24T20:07:23.155456212Z     aiConfidence: 0
+2025-11-24T20:07:23.155458642Z   clickbait:
+2025-11-24T20:07:23.155461082Z     clickbaitScore: 0
+2025-11-24T20:07:23.155463542Z     isClickbait: false
+2025-11-24T20:07:23.155466042Z     clickbaitPatterns: []
+2025-11-24T20:07:23.155468512Z     clickbaitRiskLevel: none
+2025-11-24T20:07:23.155470823Z   freshness:
+2025-11-24T20:07:23.155473263Z     contentFreshness: unknown
+2025-11-24T20:07:23.155475663Z     daysOld: null
+2025-11-24T20:07:23.155478323Z     lastUpdatedDate: null
+2025-11-24T20:07:23.155480623Z     stalenessIndicator: false
+2025-11-24T20:07:23.155482893Z   riskAssessment:
+2025-11-24T20:07:23.155485203Z     detectedRisks: ["insufficient_content_tokens"]
+2025-11-24T20:07:23.155487564Z     totalRiskScore: 0.1
+2025-11-24T20:07:23.155490064Z     riskLevel: low
+2025-11-24T20:07:23.155492514Z     recommendedAction: auto_approve
+2025-11-24T20:07:23.155495574Z   flagStatus: clean
+2025-11-24T20:07:23.155497874Z 
+2025-11-24T20:07:23.155500704Z [ADANALYZER]
+2025-11-24T20:07:23.155503374Z   success: true
+2025-11-24T20:07:23.155505854Z   data:
+2025-11-24T20:07:23.155508514Z     timestamp: 2025-11-24T20:07:13.436Z
+2025-11-24T20:07:23.155511145Z     publisherId: 6035a1ae-b4e7-4f1d-bf16-5362b2781b8f
+2025-11-24T20:07:23.155513745Z     metadata: {"totalNetworkRequests":0,"totalAdElements":0,"viewport":{"width":1920,"height":
+2025-11-24T20:07:23.155516315Z     analysis: {"patterns":{"timestamp":"2025-11-24T20:07:13.437Z","networkAnalysis":{"detected
+2025-11-24T20:07:23.155518815Z     correlations: []
+2025-11-24T20:07:23.155521135Z 
+2025-11-24T20:07:23.155523675Z [POLICYCHECKER]
+2025-11-24T20:07:23.155526215Z   timestamp: 2025-11-24T20:07:13.437Z
+2025-11-24T20:07:23.155528535Z   jurisdiction:
+2025-11-24T20:07:23.155531396Z     primaryJurisdiction: US
+2025-11-24T20:07:23.155534486Z     allJurisdictions: []
+2025-11-24T20:07:23.155536886Z     signals: {"tld":null,"language":null,"currency":null,"geoLocation":null,"cookieConsent":n
+2025-11-24T20:07:23.155539376Z     confidence: 0
+2025-11-24T20:07:23.155545046Z   violations: [0 items]
+2025-11-24T20:07:23.155547736Z   complianceLevel: compliant
+2025-11-24T20:07:23.155550307Z   policies:
+2025-11-24T20:07:23.155553007Z     NO_ADULT_CONTENT: {"name":"No Adult Content","status":"compliant","violations":[],"severity":"crit
+2025-11-24T20:07:23.155560207Z     NO_GAMBLING: {"name":"No Gambling Content","status":"compliant","violations":[],"severity":"c
+2025-11-24T20:07:23.155563087Z     NO_MALWARE: {"name":"No Malware or Unsafe Software","status":"compliant","violations":[],"se
+2025-11-24T20:07:23.155565928Z     NO_DECEPTIVE_PRACTICES: {"name":"No Deceptive Practices","status":"compliant","violations":[],"severity"
+2025-11-24T20:07:23.155571108Z     NO_VIOLENT_CONTENT: {"name":"No Violent or Hateful Content","status":"compliant","violations":[],"se
+2025-11-24T20:07:23.155573818Z   summary:
+2025-11-24T20:07:23.155576758Z     complianceLevel: compliant
+2025-11-24T20:07:23.155579318Z     totalPolicies: 8
+2025-11-24T20:07:23.155581938Z     compliantPolicies: 8
+2025-11-24T20:07:23.155584358Z     violatingPolicies: 0
+2025-11-24T20:07:23.155587009Z     totalViolations: 0
+2025-11-24T20:07:23.155589649Z   executionTime: 1
+2025-11-24T20:07:23.155591969Z   categories:
+2025-11-24T20:07:23.155594339Z     detectedCategories: []
+2025-11-24T20:07:23.155596939Z     primaryCategory: null
+2025-11-24T20:07:23.155599349Z     scores: {"adult":0,"gambling":0,"violence":0,"drugs":0,"weapons":0,"hate":0,"education":
+2025-11-24T20:07:23.155601869Z     analysis: {"hasSensitiveContent":false,"sensitiveCategories":[],"riskLevel":"low","summary
+2025-11-24T20:07:23.155604559Z   restrictedKeywords:
+2025-11-24T20:07:23.15560701Z     monetizationAbuse: []
+2025-11-24T20:07:23.15560944Z     prohibitedContent: []
+2025-11-24T20:07:23.15561162Z     regulatoryViolations: []
+2025-11-24T20:07:23.15561414Z     googleBanned: []
+2025-11-24T20:07:23.15561682Z     total: 0
+2025-11-24T20:07:23.15561899Z 
+2025-11-24T20:07:23.15562139Z [TECHNICALCHECKER]
+2025-11-24T20:07:23.15562394Z   timestamp: 2025-11-24T20:07:13.437Z
+2025-11-24T20:07:23.155626611Z   domain: primary
+2025-11-24T20:07:23.155629101Z   components:
+2025-11-24T20:07:23.155631611Z     performance: {"lcp":null,"cls":null,"fid":null,"tbt":null,"performanceScore":0,"recommendatio
+2025-11-24T20:07:23.155634151Z     brokenLinks: {"brokenCount":0,"brokenLinks":[],"categories":{"success":[],"redirect":[],"clie
+2025-11-24T20:07:23.155636771Z     domainIntel: {}
+2025-11-24T20:07:23.155639391Z     viewportOcclusion: {}
+2025-11-24T20:07:23.155641921Z     ssl: {"valid":false,"error":"","daysToExpiry":0,"chainValid":false,"issuer":"Unknown"
+2025-11-24T20:07:23.155644641Z   technicalHealthScore: 15
+2025-11-24T20:07:23.155647542Z   summary:
+2025-11-24T20:07:23.155666703Z     totalIssues: 1
+2025-11-24T20:07:23.155669593Z     criticalIssues: ["SSL Certificate issue: Invalid"]
+2025-11-24T20:07:23.155671913Z     warnings: ["ads.txt validation skipped: fetch failed"]
+2025-11-24T20:07:23.155674453Z     recommendations: ["Performance metrics are within acceptable ranges"]
+2025-11-24T20:07:23.155677313Z     componentStatus: {"ssl":"unhealthy","performance":"poor","adsTxt":"skipped","brokenLinks":"health
+2025-11-24T20:07:23.155680183Z   executionTime: 5
+2025-11-24T20:07:23.155682714Z 
+2025-11-24T20:07:23.155685204Z [SCORER]
+2025-11-24T20:07:23.155687724Z   data:
+2025-11-24T20:07:23.155690114Z     auditId: undefined
+2025-11-24T20:07:23.155703104Z     publisherId: 6035a1ae-b4e7-4f1d-bf16-5362b2781b8f
+2025-11-24T20:07:23.155706265Z     riskScore: 0.00857142857142857
+2025-11-24T20:07:23.155708875Z     mfaProbability: 0.002243829468960359
+2025-11-24T20:07:23.155711905Z     scores: {"mfaProbability":0.002243829468960359,"overallRiskScore":0.00857142857142857,"w
+2025-11-24T20:07:23.155714365Z 
+2025-11-24T20:07:23.155716835Z [AIASSISTANCE]
+2025-11-24T20:07:23.155719495Z   data:
+2025-11-24T20:07:23.155728856Z     llmResponse: 
+2025-11-24T20:07:23.155731546Z 
+2025-11-24T20:07:23.155734376Z **module(Ad_Behavior_Analysis)**
+2025-11-24T20:07:23.155737076Z found(issues:["No observable ad fraud tactics detected"])
+2025-11-24T20:07:23.155739786Z cause:["Absence of high-risk ad behaviors like auto-refresh or viewport occlusion"])
+2025-11-24T20:07:23.155742246Z fix:["Monitor for sudden increases in ad density or aggressive positioning"])
+2025-11-24T20:07:23.155744897Z impact(score_change="Minimal positive impact on risk score")
+2025-11-24T20:07:23.155747827Z good(["Low ad density (0%)", "No scroll jacking detected", "Aggressive positioning at 0%"])
+2025-11-24T20:07:23.155750857Z review_summary("Site demonstrates low-risk ad behavior patterns with no detected MFA tactics. Maintain monitoring for behavioral shifts.")
+2025-11-24T20:07:23.155753407Z 
+2025-11-24T20:07:23.155755887Z **module(Content_Quality_Indicators)**
+2025-11-24T20:07:23.155758767Z found(issues:["Critically low content quality metrics", "Potential content deficiency"])
+2025-11-24T20:07:23.155761758Z cause:["Text entropy 0/100 suggests non-unique/boilerplate content", "Readability 0/100 indicates inaccessible content", "Content freshness 0/100 implies severe stagnation"])
+2025-11-24T20:07:23.155764178Z fix(["Conduct comprehensive content audit", "Implement original content creation workflow", "Establish automated freshness monitoring"])
+2025-11-24T20:07:23.155766548Z impact(score_change="-3 points (high risk multiplier applied)")
+2025-11-24T20:07:23.155769138Z good(["AI-generated content likelihood 0%", "Clickbait score 0/100"])
+2025-11-24T20:07:23.155772528Z review_summary("Extremely low content quality scores indicate potential content deficiency or scraping. Urgent content overhaul required to mitigate MFA risk.")
+2025-11-24T20:07:23.155774898Z 
+2025-11-24T20:07:23.155777248Z **module(Technical_Infrastructure)**
+2025-11-24T20:07:23.155779799Z found(issues:["Severe performance degradation", "Unverifiable domain legitimacy"])
+2025-11-24T20:07:23.155782499Z cause:["Page load performance 0/100 indicates critical technical failures", "Domain age unknown prevents legitimacy assessment"])
+2025-11-24T20:07:23.155785079Z fix(["Optimize assets and server response", "Verify domain registration details via WHOIS"])
+2025-11-24T20:07:23.155787839Z impact(score_change="-2 points (performance penalty applied)")
+2025-11-24T20:07:23.155790519Z good(["SSL certificate valid", "No broken links detected", "Transparent WHOIS privacy status"])
+2025-11-24T20:07:23.155793979Z review_summary("Critical performance failures and unverifiable domain age create significant operational risks. Address performance immediately while verifying domain legitimacy.")
+2025-11-24T20:07:23.155796119Z 
+2025-11-24T20:07:23.15579866Z **module(Risk_Assessment)**
+2025-11-24T20:07:23.1558013Z found(issues:["Unquantifiable risk assessment", "No historical benchmarks available"])
+2025-11-24T20:07:23.15580374Z cause:["NaN% MFA probability indicates insufficient data", "0% confidence level reflects metric unreliability", "No previous risk assessments or benchmarks"])
+2025-11-24T20:07:23.15580694Z fix(["Collect baseline traffic data", "Implement continuous monitoring", "Establish historical risk benchmarks"])
+2025-11-24T20:07:23.15580962Z impact(score_change="Score currently unreliable - potential for sudden volatility upon data collection")
+2025-11-24T20:07:23.1558121Z good(["Domain reputation classified as 'Established'", "Risk direction stable with normal velocity"])
+2025-11-24T20:07:23.15581541Z review_summary("Risk assessment is currently non-operational due to data voids. Requires fundamental data collection before meaningful risk quantification.")
+2025-11-24T20:07:23.155817761Z 
+2025-11-24T20:07:23.155825991Z **module(GAM_Performance)**
+2025-11-24T20:07:23.155828851Z found(issues:["Complete performance data absence", "Unverifiable revenue patterns"])
+2025-11-24T20:07:23.155831351Z cause:["All GAM metrics show 'No data' status", "Publisher group alignment noted but unverifiable"])
+2025-11-24T20:07:23.155833861Z fix(["Integrate GAM tracking with analytics platform", "Cross-validate revenue streams with ad servers"])
+2025-11-24T20:07:23.155836402Z impact(score_change="Score currently unverifiable - potential compliance violations upon validation")
+2025-11-24T20:07:23.155839291Z good(["Revenue consistency marked as 'Consistent - Normal'", "Publisher group alignment noted"])
+2025-11-24T20:07:23.155842182Z review_summary("Critical GAM data gaps prevent performance validation. Immediate integration required for compliance verification and anomaly detection.")
+2025-11-24T20:07:23.155844352Z 
+2025-11-24T20:07:23.155846962Z **module(Compliance_Status)**
+2025-11-24T20:07:23.155849772Z found(issues:["Compliance status unverifiable", "Policy alignment assumptions"])
+2025-11-24T20:07:23.155852242Z cause:["No explicit violations detected but lacking evidence", "Jurisdiction checks performed without content verification"])
+2025-11-24T20:07:23.155854732Z fix(["Conduct policy compliance audit", "Document ad placement disclosures", "Implement transparency mechanisms"])
+2025-11-24T20:07:23.155871243Z impact(score_change="Compliance status currently provisional - potential 5-point penalty upon audit")
+2025-11-24T20:07:23.155874644Z good(["Applicable regulations identified", "Compliance status currently marked 'Compliant'"])
+2025-11-24T20:07:23.155877684Z review_summary("Compliance status is currently assumed rather than verified. Requires formal audit and documentation to maintain compliance standing.")
+2025-11-24T20:07:23.155880454Z     interpretation: {"rawResponse":"\n\n**module(Ad_Behavior_Analysis)**\nfound(issues:[\"No observa
+2025-11-24T20:07:23.155883284Z     timestamp: 2025-11-24T20:07:20.800Z
+2025-11-24T20:07:23.155885804Z     metadata: {"model":"alibaba/tongyi-deepresearch-30b-a3b:free","promptVersion":{"domain":"p
+2025-11-24T20:07:23.155888244Z ======================================================================
+2025-11-24T20:07:23.155890444Z 
+2025-11-24T20:07:23.38949517Z [DB_LOG] INSERT site_audits: 1 record(s) in 110ms
+2025-11-24T20:07:43.643754443Z [DB_LOG] UPDATE site_audits: 1 record(s) in 812ms
+2025-11-24T20:07:44.196078619Z [pub:3be82b25] ⚠ No ad elements to batch insert
+2025-11-24T20:07:47.096631082Z 
+2025-11-24T20:07:47.096656793Z AUDIT SUMMARY - digibliss.in
+2025-11-24T20:07:47.096661974Z ======================================================================
+2025-11-24T20:07:47.096665644Z 
+2025-11-24T20:07:47.096669394Z CRAWLER
+2025-11-24T20:07:47.099255128Z   Status: PROCESSED
+2025-11-24T20:07:47.099260938Z 
+2025-11-24T20:07:47.099265148Z CONTENTANALYZER
+2025-11-24T20:07:47.099269008Z   Status: PROCESSED
+2025-11-24T20:07:47.099272779Z 
+2025-11-24T20:07:47.099276619Z ADANALYZER
+2025-11-24T20:07:47.099280439Z   Status: PROCESSED
+2025-11-24T20:07:47.099283969Z 
+2025-11-24T20:07:47.099287709Z POLICYCHECKER
+2025-11-24T20:07:47.09929149Z   Status: PROCESSED
+2025-11-24T20:07:47.09929498Z 
+2025-11-24T20:07:47.09929851Z TECHNICALCHECKER
+2025-11-24T20:07:47.09930232Z   Status: PROCESSED
+2025-11-24T20:07:47.099316711Z 
+2025-11-24T20:07:47.099321181Z SCORER
+2025-11-24T20:07:47.099325031Z   Status: PROCESSED
+2025-11-24T20:07:47.099328602Z 
+2025-11-24T20:07:47.099332202Z AIASSISTANCE
+2025-11-24T20:07:47.099335862Z   Status: PROCESSED
+2025-11-24T20:07:47.099339442Z 
+2025-11-24T20:07:47.099356243Z ======================================================================
+2025-11-24T20:07:47.099358943Z Total Issues Found: 0
+2025-11-24T20:07:47.099361673Z Total Positive Findings: 0
+2025-11-24T20:07:47.099363953Z 
+2025-11-24T20:07:47.099377214Z AUDIT FINDINGS
+2025-11-24T20:07:47.099380054Z ======================================================================
+2025-11-24T20:07:47.099382234Z 
+2025-11-24T20:07:47.099387295Z [CRAWLER]
+2025-11-24T20:07:47.099389655Z   url: digibliss.in
+2025-11-24T20:07:47.099391915Z   metrics:
+2025-11-24T20:07:47.099394925Z     navigationTiming: {"fetchStart":0,"requestStart":0,"responseStart":0,"responseEnd":398.90000009536
+2025-11-24T20:07:47.099397665Z     coreLWP: {"ttfb":0,"fcp":0,"lcp":0,"cls":0,"dcp":null}
+2025-11-24T20:07:47.099399795Z     jsWeight: 0
+2025-11-24T20:07:47.099402366Z     resourceCount: 0
+2025-11-24T20:07:47.099404555Z     resourceTiming: {"images":0,"stylesheets":0,"scripts":0,"fonts":0}
+2025-11-24T20:07:47.099406736Z   adElements: [0 items]
+2025-11-24T20:07:47.099408986Z   iframes: [0 items]
+2025-11-24T20:07:47.099411076Z   content: [1 items]
+2025-11-24T20:07:47.099413366Z     - No content extracted
+2025-11-24T20:07:47.099415456Z   viewport: desktop
+2025-11-24T20:07:47.099417536Z   publisherId: 3be82b25-af7c-4e10-8e70-4ee475d21ea3
+2025-11-24T20:07:47.099419836Z   siteAuditId: fc83198d-e4c2-4dac-b041-a154845b5bd9
+2025-11-24T20:07:47.099421787Z 
+2025-11-24T20:07:47.099423816Z [CONTENTANALYZER]
+2025-11-24T20:07:47.099428207Z   textLength: 20
+2025-11-24T20:07:47.099431047Z   analysisTimestamp: 2025-11-24T20:07:25.438Z
+2025-11-24T20:07:47.099433177Z   entropy:
+2025-11-24T20:07:47.099435357Z     entropyScore: 0.728
+2025-11-24T20:07:47.099437587Z     isLowEntropy: false
+2025-11-24T20:07:47.099439727Z     contentLength: 20
+2025-11-24T20:07:47.099441808Z     flagStatus: clean
+2025-11-24T20:07:47.099443938Z   similarity:
+2025-11-24T20:07:47.099446858Z     simhashFingerprint: 0001011011011000010100001011101100010110110110000101000010111011
+2025-11-24T20:07:47.099448928Z     contentHash: 5f196686
+2025-11-24T20:07:47.099450968Z     tokenCount: 3
+2025-11-24T20:07:47.099453028Z   readability:
+2025-11-24T20:07:47.099455138Z     readabilityScore: 100
+2025-11-24T20:07:47.099457218Z     gradeLevel: 0
+2025-11-24T20:07:47.099459298Z     readabilityLevel: unknown
+2025-11-24T20:07:47.099461489Z     humanAuthorshipLikelihood: true
+2025-11-24T20:07:47.099463719Z   ai:
+2025-11-24T20:07:47.099465889Z     aiLikelihood: 0
+2025-11-24T20:07:47.099468029Z     aiScore: 0
+2025-11-24T20:07:47.099470329Z     aiIndicators: []
+2025-11-24T20:07:47.099472479Z     aiConfidence: 0
+2025-11-24T20:07:47.099474719Z   clickbait:
+2025-11-24T20:07:47.099476889Z     clickbaitScore: 0
+2025-11-24T20:07:47.099478939Z     isClickbait: false
+2025-11-24T20:07:47.099481079Z     clickbaitPatterns: []
+2025-11-24T20:07:47.09948323Z     clickbaitRiskLevel: none
+2025-11-24T20:07:47.09948537Z   freshness:
+2025-11-24T20:07:47.09948745Z     contentFreshness: unknown
+2025-11-24T20:07:47.09948957Z     daysOld: null
+2025-11-24T20:07:47.09949193Z     lastUpdatedDate: null
+2025-11-24T20:07:47.0994941Z     stalenessIndicator: false
+2025-11-24T20:07:47.0994962Z   riskAssessment:
+2025-11-24T20:07:47.099498431Z     detectedRisks: ["insufficient_content_tokens"]
+2025-11-24T20:07:47.09950052Z     totalRiskScore: 0.1
+2025-11-24T20:07:47.099502641Z     riskLevel: low
+2025-11-24T20:07:47.099504721Z     recommendedAction: auto_approve
+2025-11-24T20:07:47.099506791Z   flagStatus: clean
+2025-11-24T20:07:47.099514781Z 
+2025-11-24T20:07:47.099517312Z [ADANALYZER]
+2025-11-24T20:07:47.099519521Z   success: true
+2025-11-24T20:07:47.099521692Z   data:
+2025-11-24T20:07:47.099523822Z     timestamp: 2025-11-24T20:07:25.438Z
+2025-11-24T20:07:47.099526012Z     publisherId: 3be82b25-af7c-4e10-8e70-4ee475d21ea3
+2025-11-24T20:07:47.099528232Z     metadata: {"totalNetworkRequests":0,"totalAdElements":0,"viewport":{"width":1920,"height":
+2025-11-24T20:07:47.099530442Z     analysis: {"patterns":{"timestamp":"2025-11-24T20:07:25.438Z","networkAnalysis":{"detected
+2025-11-24T20:07:47.099532582Z     correlations: []
+2025-11-24T20:07:47.099534482Z 
+2025-11-24T20:07:47.099536533Z [POLICYCHECKER]
+2025-11-24T20:07:47.099538813Z   timestamp: 2025-11-24T20:07:25.438Z
+2025-11-24T20:07:47.099540833Z   jurisdiction:
+2025-11-24T20:07:47.099542853Z     primaryJurisdiction: US
+2025-11-24T20:07:47.099545113Z     allJurisdictions: []
+2025-11-24T20:07:47.099547233Z     signals: {"tld":null,"language":null,"currency":null,"geoLocation":null,"cookieConsent":n
+2025-11-24T20:07:47.099549453Z     confidence: 0
+2025-11-24T20:07:47.099551773Z   violations: [0 items]
+2025-11-24T20:07:47.099553903Z   complianceLevel: compliant
+2025-11-24T20:07:47.099556283Z   policies:
+2025-11-24T20:07:47.099558534Z     NO_ADULT_CONTENT: {"name":"No Adult Content","status":"compliant","violations":[],"severity":"crit
+2025-11-24T20:07:47.099560744Z     NO_GAMBLING: {"name":"No Gambling Content","status":"compliant","violations":[],"severity":"c
+2025-11-24T20:07:47.099563014Z     NO_MALWARE: {"name":"No Malware or Unsafe Software","status":"compliant","violations":[],"se
+2025-11-24T20:07:47.099565184Z     NO_DECEPTIVE_PRACTICES: {"name":"No Deceptive Practices","status":"compliant","violations":[],"severity"
+2025-11-24T20:07:47.099567524Z     NO_VIOLENT_CONTENT: {"name":"No Violent or Hateful Content","status":"compliant","violations":[],"se
+2025-11-24T20:07:47.099569694Z   summary:
+2025-11-24T20:07:47.099571894Z     complianceLevel: compliant
+2025-11-24T20:07:47.099574004Z     totalPolicies: 8
+2025-11-24T20:07:47.099576175Z     compliantPolicies: 8
+2025-11-24T20:07:47.099578315Z     violatingPolicies: 0
+2025-11-24T20:07:47.099580465Z     totalViolations: 0
+2025-11-24T20:07:47.099582685Z   executionTime: 3
+2025-11-24T20:07:47.099584835Z   categories:
+2025-11-24T20:07:47.099586935Z     detectedCategories: []
+2025-11-24T20:07:47.099588975Z     primaryCategory: null
+2025-11-24T20:07:47.099591085Z     scores: {"adult":0,"gambling":0,"violence":0,"drugs":0,"weapons":0,"hate":0,"education":
+2025-11-24T20:07:47.099593345Z     analysis: {"hasSensitiveContent":false,"sensitiveCategories":[],"riskLevel":"low","summary
+2025-11-24T20:07:47.099595425Z   restrictedKeywords:
+2025-11-24T20:07:47.099597505Z     monetizationAbuse: []
+2025-11-24T20:07:47.099599656Z     prohibitedContent: []
+2025-11-24T20:07:47.099601846Z     regulatoryViolations: []
+2025-11-24T20:07:47.099603986Z     googleBanned: []
+2025-11-24T20:07:47.099606026Z     total: 0
+2025-11-24T20:07:47.099608036Z 
+2025-11-24T20:07:47.099610016Z [TECHNICALCHECKER]
+2025-11-24T20:07:47.099612116Z   timestamp: 2025-11-24T20:07:25.438Z
+2025-11-24T20:07:47.099614297Z   domain: digibliss.in
+2025-11-24T20:07:47.099616366Z   components:
+2025-11-24T20:07:47.099618587Z     performance: {"lcp":null,"cls":null,"fid":null,"tbt":null,"performanceScore":0,"recommendatio
+2025-11-24T20:07:47.099620707Z     brokenLinks: {"brokenCount":0,"brokenLinks":[],"categories":{"success":[],"redirect":[],"clie
+2025-11-24T20:07:47.099622857Z     domainIntel: {}
+2025-11-24T20:07:47.099629947Z     viewportOcclusion: {}
+2025-11-24T20:07:47.099632437Z     ssl: {"valid":false,"error":"","daysToExpiry":0,"chainValid":false,"issuer":"Unknown"
+2025-11-24T20:07:47.099634678Z   technicalHealthScore: 29
+2025-11-24T20:07:47.099636798Z   summary:
+2025-11-24T20:07:47.099638978Z     totalIssues: 1
+2025-11-24T20:07:47.099641248Z     criticalIssues: ["SSL Certificate issue: Invalid"]
+2025-11-24T20:07:47.099643478Z     warnings: ["ads.txt: 1 invalid entries found"]
+2025-11-24T20:07:47.099646068Z     recommendations: ["Performance metrics are within acceptable ranges"]
+2025-11-24T20:07:47.099648268Z     componentStatus: {"ssl":"unhealthy","performance":"poor","adsTxt":"invalid","brokenLinks":"health
+2025-11-24T20:07:47.099650398Z   executionTime: 977
+2025-11-24T20:07:47.099652268Z 
+2025-11-24T20:07:47.099654268Z [SCORER]
+2025-11-24T20:07:47.099656389Z   data:
+2025-11-24T20:07:47.099658579Z     auditId: undefined
+2025-11-24T20:07:47.099663689Z     publisherId: 3be82b25-af7c-4e10-8e70-4ee475d21ea3
+2025-11-24T20:07:47.099666049Z     riskScore: 0.00857142857142857
+2025-11-24T20:07:47.099668339Z     mfaProbability: 0.002243829468960359
+2025-11-24T20:07:47.099670579Z     scores: {"mfaProbability":0.002243829468960359,"overallRiskScore":0.00857142857142857,"w
+2025-11-24T20:07:47.099672469Z 
+2025-11-24T20:07:47.099674549Z [AIASSISTANCE]
+2025-11-24T20:07:47.09967677Z   data:
+2025-11-24T20:07:47.09967895Z     llmResponse: 
+2025-11-24T20:07:47.09968096Z 
+2025-11-24T20:07:47.09968296Z ### Module: Ad Behavior Analysis
+2025-11-24T20:07:47.09968508Z found(issues:["No detectable ad density", "No auto-refresh or aggressive ad positioning detected"])
+2025-11-24T20:07:47.09968737Z cause:["Absence of ad elements may indicate non-monetization or technical detection failure"]
+2025-11-24T20:07:47.09969007Z fix:["Implement legitimate ad networks if monetization is intended; verify ad implementation via page inspection"]
+2025-11-24T20:07:47.09969215Z impact(score_change="-0.5 risk units")
+2025-11-24T20:07:47.099694541Z good(["No intrusive ad behaviors detected"])
+2025-11-24T20:07:47.099697781Z review_summary: Minimal ad presence reduces user annoyance but raises concerns about monetization viability. Requires verification of ad implementation.
+2025-11-24T20:07:47.099699891Z 
+2025-11-24T20:07:47.099701941Z ### Module: Content Quality Indicators
+2025-11-24T20:07:47.099704251Z found(issues:["Zero text entropy", "Zero readability score", "Zero content freshness", "Zero similarity score (indicating no detectable content)"])
+2025-11-24T20:07:47.099706481Z cause:["Content may be non-existent, dynamically loaded without rendering, or heavily obfuscated"]
+2025-11-24T20:07:47.099708671Z fix:["Deploy visible, original text content with clear structure; ensure content is accessible to crawlers"]
+2025-11-24T20:07:47.099710911Z impact(score_change="-3.0 critical risk units")
+2025-11-24T20:07:47.099713111Z good(["None detected - but requires content existence for validation"])
+2025-11-24T20:07:47.099715232Z review_summary: All content metrics at zero suggest fundamental content deficiencies. Urgent content deployment needed to establish site legitimacy.
+2025-11-24T20:07:47.099717162Z 
+2025-11-24T20:07:47.099719222Z ### Module: Technical Infrastructure
+2025-11-24T20:07:47.099721282Z found(issues:["0/100 page load performance", "Established domain reputation but poor performance"])
+2025-11-24T20:07:47.099723462Z cause:["Server latency, unoptimized resources, or insufficient hosting capacity"]
+2025-11-24T20:07:47.099725652Z fix:["Conduct performance audits; optimize images/CSS/JS; upgrade hosting; implement caching"]
+2025-11-24T20:07:47.099727932Z impact(score_change="-1.5 risk units")
+2025-11-24T20:07:47.099735403Z good(["Valid SSL certificate", "Zero broken links", "Transparent WHOIS registration"])
+2025-11-24T20:07:47.099737883Z review_summary: Technical hygiene is partially maintained but critical performance failures undermine user experience. Requires immediate optimization.
+2025-11-24T20:07:47.099739943Z 
+2025-11-24T20:07:47.099742373Z ### Module: Layout & UX Anomalies
+2025-11-24T20:07:47.099744593Z found(issues:["No viewport inconsistency", "No rendering anomalies", "No hidden elements detected"])
+2025-11-24T20:07:47.099746853Z cause:["Site may be non-functional or lack interactive elements due to missing content"]
+2025-11-24T20:07:47.099749073Z fix:["Ensure responsive design implementation; validate CSS/JS rendering across devices"]
+2025-11-24T20:07:47.099751153Z impact(score_change="Neutral (0 units)")
+2025-11-24T20:07:47.099753544Z good(["No detected UX violations"])
+2025-11-24T20:07:47.099756404Z review_summary: Absence of anomalies is positive but likely artificial due to content absence. Requires functional layout validation.
+2025-11-24T20:07:47.099758364Z 
+2025-11-24T20:07:47.099760584Z ### Module: Risk Probability Assessment
+2025-11-24T20:07:47.099762644Z found(issues:["NaN% MFA probability", "0% confidence level", "No component data available"])
+2025-11-24T20:07:47.099764874Z cause:["Insufficient data from other modules prevents Bayesian calculation"]
+2025-11-24T20:07:47.099767014Z fix:["Resolve content/technical deficiencies to generate analyzable data"]
+2025-11-24T20:07:47.099769254Z impact(score_change="-2.0 risk units (due to unreliability)")
+2025-11-24T20:07:47.099771494Z good(["Risk direction stable - but requires data validity"])
+2025-11-24T20:07:47.099773625Z review_summary: Risk assessment is fundamentally compromised by missing data. All prior modules must be addressed to enable evaluation.
+2025-11-24T20:07:47.099775535Z 
+2025-11-24T20:07:47.099777555Z ### Module: GAM Performance & Correlation Signals
+2025-11-24T20:07:47.099779655Z found(issues:["No CTR/eCPM/fill rate data", "No impression spikes detected"])
+2025-11-24T20:07:47.099781795Z cause:["Lack of ad implementation or traffic volume prevents metric collection"]
+2025-11-24T20:07:47.099783865Z fix:["Activate ad networks; ensure tracking pixels are implemented and functional"]
+2025-11-24T20:07:47.099785965Z impact(score_change="Neutral (0 units)")
+2025-11-24T20:07:47.099788286Z good(["Revenue consistency marked as normal - but requires data validation"])
+2025-11-24T20:07:47.099790626Z review_summary: Performance metrics are unavailable, preventing revenue correlation analysis. Requires ad system implementation.
+2025-11-24T20:07:47.099792616Z 
+2025-11-24T20:07:47.099794606Z ### Module: Policy & Compliance Violations
+2025-11-24T20:07:47.099796676Z found(issues:["None detected"])
+2025-11-24T20:07:47.099798806Z cause:["Site adheres to standards but lacks substantive content to violate policies"]
+2025-11-24T20:07:47.099802866Z fix:["Maintain compliance protocols; implement content transparency policies"]
+2025-11-24T20:07:47.099805136Z impact(score_change="+0.5 compliance units")
+2025-11-24T20:07:47.099807556Z good(["Compliant with AdChoices, Google Publisher Policies, and IAB Standards"])
+2025-11-24T20:07:47.099814227Z review_summary: Policy compliance is a positive indicator but insufficient without quality content. Requires ongoing monitoring.
+2025-11-24T20:07:47.099816547Z 
+2025-11-24T20:07:47.099818657Z ### Overall Risk Synthesis
+2025-11-24T20:07:47.099821767Z review_summary: The site exhibits critical deficiencies in content existence and technical performance, rendering risk assessment unreliable. While policy compliance and absence of intrusive ads are positive, the fundamental lack of content and poor performance necessitate urgent remediation. Prioritize content deployment and infrastructure optimization to enable valid risk scoring.
+2025-11-24T20:07:47.099829148Z     interpretation: {"rawResponse":"\n\n### Module: Ad Behavior Analysis\nfound(issues:[\"No detecta
+2025-11-24T20:07:47.099831718Z     timestamp: 2025-11-24T20:07:42.015Z
+2025-11-24T20:07:47.099833988Z     metadata: {"model":"alibaba/tongyi-deepresearch-30b-a3b:free","promptVersion":{"domain":"d
+2025-11-24T20:07:47.099836128Z ======================================================================
+2025-11-24T20:07:47.099838188Z 
