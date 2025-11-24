@@ -222,13 +222,13 @@ function AuditDetailModal({ audit, onClose }: AuditDetailModalProps) {
             </div>
 
             {/* AI Summary */}
-            {audit.aiReport?.interpretation?.summary && (
+            {(audit.aiReport?.interpretation?.parsedFindings?.summary || audit.aiReport?.interpretation?.summary) && (
               <div className="bg-cyan-950/20 border border-cyan-500/20 rounded-lg p-4">
                 <h4 className="text-sm font-semibold text-cyan-300 mb-2 flex items-center gap-2">
                   <Zap className="w-4 h-4" /> AI Analysis
                 </h4>
                 <p className="text-sm text-cyan-100/90 leading-relaxed whitespace-pre-wrap">
-                  {audit.aiReport.interpretation.summary}
+                  {audit.aiReport.interpretation.parsedFindings?.summary || audit.aiReport.interpretation.summary}
                 </p>
               </div>
             )}
