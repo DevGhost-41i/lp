@@ -72,9 +72,12 @@ Deno.serve(async (req) => {
             .eq('id', item.publisher_id)
 
         try {
-            // Call the existing new-pub-report-and-audit function
-            console.log(`🎯 Triggering historical data fetch for publisher ${item.publisher_id}`)
+            console.log(`🎯 Triggering complete publisher setup for ${item.publisher_id}`)
 
+            // Call new-pub-report-and-audit which does BOTH:
+            // 1. Fetches 2 months historical GAM data
+            // 2. Triggers site monitoring worker for MFA audit
+            // This ensures MFA scores are available for approval decisions
             const functionUrl = `${Deno.env.get('SUPABASE_URL')}/functions/v1/new-pub-report-and-audit`
             const response = await fetch(functionUrl, {
                 method: 'POST',
@@ -85,16 +88,16 @@ Deno.serve(async (req) => {
                 body: JSON.stringify({
                     publisherId: item.publisher_id,
                     fetchHistorical: true,
-                    months: 2
+                    historicalMonths: 2
                 })
             })
 
             if (!response.ok) {
                 const errorText = await response.text()
-                throw new Error(`Historical fetch failed: ${errorText}`)
+                throw new Error(`Publisher setup failed: ${errorText}`)
             }
 
-            console.log(`✅ Historical data fetch completed for publisher ${item.publisher_id}`)
+            console.log(`✅ Complete publisher setup finished for ${item.publisher_id} (GAM data + MFA score)`)
 
             // Mark as completed
             await supabase
@@ -113,7 +116,7 @@ Deno.serve(async (req) => {
             return new Response(
                 JSON.stringify({
                     success: true,
-                    message: `Processed publisher ${item.publisher_id}`,
+                    message: `Processed publisher ${item.publisher_id} - GAM data + MFA score complete`,
                     queueItemId: item.id
                 }),
                 {
@@ -123,7 +126,7 @@ Deno.serve(async (req) => {
             )
 
         } catch (fetchError: any) {
-            console.error(`❌ Error fetching data for publisher ${item.publisher_id}:`, fetchError)
+            console.error(`❌ Error processing publisher ${item.publisher_id}:`, fetchError)
 
             // Get current retry count
             const retryCount = item.retry_count + 1

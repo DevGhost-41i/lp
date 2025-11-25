@@ -34,14 +34,14 @@ export interface BulkUploadResult {
     totalRows: number;
     successCount: number;
     failureCount: number;
-  verificat ionFailureCount: number;
-queuedCount: number;
-failures: Array<{
-    row: number;
-    data: PublisherCSVRow;
-    error: string;
-    type: 'validation' | 'verification' | 'insertion' | 'queue';
-}>;
+    verificationFailureCount: number;
+    queuedCount: number;
+    failures: Array<{
+        row: number;
+        data: PublisherCSVRow;
+        error: string;
+        type: 'validation' | 'verification' | 'insertion' | 'queue';
+    }>;
 }
 
 export type ProgressCallback = (progress: BulkUploadProgress) => void;
@@ -395,8 +395,19 @@ class CSVPublisherService {
 
         for (const { publisherId, rowData } of verifiedPublishers) {
             try {
-                await historicalDataQueueService.queuePublisher(publisherId);
-                result.queuedCount++;
+                const queueResult = await historicalDataQueueService.queuePublisher(publisherId);
+
+                if (queueResult.success) {
+                    result.queuedCount++;
+                } else {
+                    result.failureCount++;
+                    result.failures.push({
+                        row: (rowData as any).rowNumber || 0, // Fallback if row number lost
+                        data: rowData,
+                        error: `Failed to queue: ${queueResult.error}`,
+                        type: 'queue'
+                    });
+                }
             } catch (error: any) {
                 result.failures.push({
                     row: 0,
